@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-home-modeler.example/schemas/spatial-model/v1.schema.json",
+  "title": "AI Home Modeler spatial model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "units", "origin", "levels", "constraints", "metadata"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "units": { "const": "m" },
+    "origin": { "$ref": "#/$defs/point" },
+    "levels": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/level" }
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/constraint" }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["sourceVersionId"],
+      "properties": {
+        "sourceVersionId": { "type": ["string", "null"] }
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "array",
+      "prefixItems": [{ "type": "number" }, { "type": "number" }],
+      "items": false
+    },
+    "level": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "elevation", "entities"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "elevation": { "type": "number" },
+        "entities": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/entity" }
+        }
+      }
+    },
+    "entity": {
+      "oneOf": [
+        { "$ref": "#/$defs/wall" },
+        { "$ref": "#/$defs/object" }
+      ]
+    },
+    "wall": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "path", "thickness"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": { "const": "wall" },
+        "path": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/$defs/point" }
+        },
+        "thickness": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "position", "size"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": { "const": "object" },
+        "catalogItemId": { "type": ["string", "null"] },
+        "position": { "$ref": "#/$defs/point" },
+        "size": { "$ref": "#/$defs/point" },
+        "rotation": { "type": "number", "default": 0 }
+      }
+    },
+    "constraint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "entityIds", "severity"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": { "type": "string", "minLength": 1 },
+        "entityIds": { "type": "array", "items": { "type": "string" } },
+        "severity": { "enum": ["info", "warning", "error"] },
+        "parameters": { "type": "object", "additionalProperties": true }
+      }
+    }
+  }
+}

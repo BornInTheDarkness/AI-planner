@@ -11,16 +11,16 @@
 
 ## 2. Контейнеры
 
-| Компонент | Ответственность | Предлагаемый стек |
-|---|---|---|
-| Web App | кабинет, 2D-редактор, сравнение, экспорт | Next.js/TypeScript, React, Canvas/WebGL |
-| Backend API | authz, проекты, версии, каталог, jobs, биллинг | Python 3.12, FastAPI, Pydantic |
-| Worker | импорт, генерация, валидация, рендер, экспорт | Python, Celery/Dramatiq |
-| PostgreSQL | транзакционные и геометрические данные | PostgreSQL + PostGIS |
-| Object Storage | исходники, previews, exports | S3-compatible, versioning, lifecycle |
-| Queue/Cache | задания, блокировки, кэш, rate limits | Redis на MVP; managed queue позднее |
-| AI Gateway | адаптеры моделей, policy, usage/cost | внутренний модуль/сервис |
-| Observability | traces, metrics, logs, errors | OpenTelemetry + managed backend |
+| Компонент      | Ответственность                                | Предлагаемый стек                       |
+| -------------- | ---------------------------------------------- | --------------------------------------- |
+| Web App        | кабинет, 2D-редактор, сравнение, экспорт       | Next.js/TypeScript, React, Canvas/WebGL |
+| Backend API    | authz, проекты, версии, каталог, jobs, биллинг | Python 3.12, FastAPI, Pydantic          |
+| Worker         | импорт, генерация, валидация, рендер, экспорт  | Python, Celery/Dramatiq                 |
+| PostgreSQL     | транзакционные и геометрические данные         | PostgreSQL + PostGIS                    |
+| Object Storage | исходники, previews, exports                   | S3-compatible, versioning, lifecycle    |
+| Queue/Cache    | задания, блокировки, кэш, rate limits          | Redis на MVP; managed queue позднее     |
+| AI Gateway     | адаптеры моделей, policy, usage/cost           | внутренний модуль/сервис                |
+| Observability  | traces, metrics, logs, errors                  | OpenTelemetry + managed backend         |
 
 Выбор конкретных облачных сервисов откладывается до определения региона и
 ограничений по данным.
@@ -69,15 +69,25 @@ User ──< ProjectMember >── Project ──< BriefVersion
   "schemaVersion": "1.0",
   "units": "m",
   "origin": [0, 0],
-  "levels": [{
-    "id": "level_1",
-    "elevation": 0,
-    "entities": [
-      {"id": "wall_1", "type": "wall", "path": [[0, 0], [4.2, 0]], "thickness": 0.18}
-    ]
-  }],
+  "levels": [
+    {
+      "id": "level_1",
+      "elevation": 0,
+      "entities": [
+        {
+          "id": "wall_1",
+          "type": "wall",
+          "path": [
+            [0, 0],
+            [4.2, 0]
+          ],
+          "thickness": 0.18
+        }
+      ]
+    }
+  ],
   "constraints": [],
-  "metadata": {"sourceVersionId": "..."}
+  "metadata": { "sourceVersionId": "..." }
 }
 ```
 

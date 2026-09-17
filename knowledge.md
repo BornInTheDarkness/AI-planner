@@ -61,3 +61,34 @@ commit опубликованным, пока не подтвержден remote
 - Проверен доступ к GitHub; исходная ветка main содержит только .gitkeep.
 - Документы подготовлены к публикации поверх существующей истории main. Результат push проверяется по совпадению локального и удалённого SHA.
 - Указанное выше отсутствие remote относится к прежнему окружению и больше не блокирует публикацию из этого проекта.
+
+## 2026-09-17 — начало этапа 0 в ветке test
+
+- Создана и активирована локальная ветка `test`; pull request откладывается до
+  завершения этапа и пользовательского ревью.
+- Подготовлен discovery-пакет: основная персона как гипотеза, P0-сценарии, план
+  12 интервью, usability-проверка прототипа, метрики и реестр допущений.
+- Реализован интерактивный прототип 2D-редактора для проверки навигации,
+  перемещения объектов, точных размеров, предупреждений и сохранения версии.
+- Созданы FastAPI baseline, health/OpenAPI contract, пространственная JSON Schema
+  v1 с fixture и автоматической проверкой.
+- Добавлены воспроизводимое локальное окружение PostgreSQL/PostGIS, Redis и MinIO,
+  lock-файлы, Dockerfiles, CI и Dependabot.
+- Созданы полные ADR-001–ADR-006 со статусом `Proposed`, threat model и описание
+  local/preview/staging/production сред.
+- Production cloud, data region и AI-провайдер не выбираются до решения по первому
+  рынку; внешние AI-вызовы и реальные пользовательские данные пока не включаются.
+- Интервью и usability-сессии не проводились: их результаты нельзя заменять
+  синтетическими ответами. Для выхода из этапа 0 нужны реальные участники и
+  назначенные product/data/security owners.
+- Проверены clean install из `package-lock.json` и frozen sync из `uv.lock`; Ruff,
+  Pytest, JSON Schema validation, ESLint, TypeScript, Next production build и npm
+  audit проходят. В тестах FastAPI остаются два upstream deprecation warning.
+- Полный Docker stack собран и запущен: API, web, PostgreSQL/PostGIS, Redis и MinIO
+  достигли healthy; init-job создал bucket и завершился с кодом 0. После проверки
+  контейнеры остановлены, volumes сохранены.
+- Для исключения конфликтов локальные host-порты изменены на PostgreSQL `15432`,
+  Redis `16379`, MinIO `19000/19001`; web standalone явно слушает `0.0.0.0`.
+- Визуальный browser QA недоступен в текущей computer-use среде; web проверен по
+  production build, container health и HTTP-контенту. Usability-проверка остаётся
+  частью реальных сессий этапа 0.
