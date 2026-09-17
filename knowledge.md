@@ -92,3 +92,6 @@ commit опубликованным, пока не подтвержден remote
 - Визуальный browser QA недоступен в текущей computer-use среде; web проверен по
   production build, container health и HTTP-контенту. Usability-проверка остаётся
   частью реальных сессий этапа 0.
+- Product owner подтвердил первый рынок: Россия. Для этапа 0 приняты `ru-RU`, RUB
+  и метрическая система; конкретный production-регион, применимые нормы и
+  cloud/AI-провайдеры остаются предметом legal/security review.
