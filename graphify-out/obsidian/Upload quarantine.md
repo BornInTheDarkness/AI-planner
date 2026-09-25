@@ -1,0 +1,18 @@
+---
+source_file: "docs/adr/0003-persistence.md"
+type: "concept"
+community: "Services and Security"
+tags:
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/Services_and_Security
+---
+
+# Upload quarantine
+
+## Connections
+- [[0003-persistence]] - `references` [EXTRACTED]
+- [[Malicious upload controls]] - `conceptually_related_to` [INFERRED]
+- [[Private versioned S3-compatible assets]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Services_and_Security

@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "date": "2026-09-25T15:33:31.248083+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 68,
+      "measurement_note": "Agent token usage unavailable; zero is a placeholder, not actual usage"
+    },
+    {
+      "date": "2026-09-25T15:36:03.277617+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 68,
+      "measurement_note": "Cached semantic extraction; no new semantic token usage"
+    },
+    {
+      "date": "2026-09-25T15:45:41.307343+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 70,
+      "measurement_note": "Agent token usage unavailable; zero is a placeholder, not actual usage"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0
+}

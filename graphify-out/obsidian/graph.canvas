@@ -1,0 +1,5398 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Architecture and Spatial Contracts",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 820,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_adr_0002_spatial_contract_document",
+      "type": "file",
+      "file": "0002-spatial-contract.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_ai_gateway",
+      "type": "file",
+      "file": "AI Gateway and provider abstraction.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_generation_pipeline",
+      "type": "file",
+      "file": "AI generation pipeline.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_ai_variants",
+      "type": "file",
+      "file": "AI layout variants.md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_background_jobs",
+      "type": "file",
+      "file": "Background job lifecycle.md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_operations_environments_production_release",
+      "type": "file",
+      "file": "Canary release and rollback.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0002_spatial_contract_canonical_spatial_model",
+      "type": "file",
+      "file": "Canonical metric spatial model.md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_canonical_geometry",
+      "type": "file",
+      "file": "Canonical spatial schema.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_catalog_estimate",
+      "type": "file",
+      "file": "Catalog and estimate.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_deployment",
+      "type": "file",
+      "file": "Deployment and migration strategy.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_readme_document",
+      "type": "file",
+      "file": "Documentation index_1.md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_documentation_index",
+      "type": "file",
+      "file": "Documentation index.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_editable_model",
+      "type": "file",
+      "file": "Editable 2D spatial model.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_safety",
+      "type": "file",
+      "file": "Expert review for safety-critical changes.md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_deterministic_checks",
+      "type": "file",
+      "file": "Geometry and constraint validators.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_immutable_versions",
+      "type": "file",
+      "file": "Immutable version payloads.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_readme_graph_navigation",
+      "type": "file",
+      "file": "Knowledge graph documentation navigation.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_operations_environments_service_identity",
+      "type": "file",
+      "file": "Least-privilege service identity.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_operations_environments_environment_matrix",
+      "type": "file",
+      "file": "Local, preview, staging and production environments.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_performance_targets",
+      "type": "file",
+      "file": "MVP performance and quality targets.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_mvp_path",
+      "type": "file",
+      "file": "MVP project-to-export journey.md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_modular_architecture",
+      "type": "file",
+      "file": "Modular monolith architecture.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_domain_modules",
+      "type": "file",
+      "file": "Nine domain modules.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_object_authz",
+      "type": "file",
+      "file": "Object-level authorization.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_plan_import",
+      "type": "file",
+      "file": "Plan import and normalization.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_risk_register",
+      "type": "file",
+      "file": "Product and technical risks.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_operations_environments_data_isolation",
+      "type": "file",
+      "file": "Production data isolation.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_document",
+      "type": "file",
+      "file": "README.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_cross_area_sources",
+      "type": "file",
+      "file": "Sources for cross-area relationship verification.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_knowledge_stage_0_status",
+      "type": "file",
+      "file": "Stage 0 baseline prepared; interviews, usability sessions and owner review remain.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_stage_0",
+      "type": "file",
+      "file": "Stage 0 discovery.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_project_status",
+      "type": "file",
+      "file": "Stage 0 discovery baseline.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_stage_1",
+      "type": "file",
+      "file": "Stage 1 vertical slice.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_stage_2",
+      "type": "file",
+      "file": "Stage 2 import and AI.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_stage_3",
+      "type": "file",
+      "file": "Stage 3 visualization and export.md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_stage_4",
+      "type": "file",
+      "file": "Stage 4 closed beta.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_spatial_contract_traceability",
+      "type": "file",
+      "file": "Trace spatial contract changes to requirements and canonical-model modules.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_observability",
+      "type": "file",
+      "file": "Tracing, metrics and safe logs.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0002_spatial_contract_versioned_json_schema",
+      "type": "file",
+      "file": "Versioned JSON Schema.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_export",
+      "type": "file",
+      "file": "Versioned export.md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_architecture_document",
+      "type": "file",
+      "file": "architecture.md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_decisions_document",
+      "type": "file",
+      "file": "decisions.md",
+      "x": 1220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_operations_environments_document",
+      "type": "file",
+      "file": "environments.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_document",
+      "type": "file",
+      "file": "product-requirements.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_roadmap_document",
+      "type": "file",
+      "file": "roadmap.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Web App Configuration",
+      "x": 1620,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "2"
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_types_node",
+      "type": "file",
+      "file": "@typesnode.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_node",
+      "type": "file",
+      "file": "@typesnode_1.md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_types_react",
+      "type": "file",
+      "file": "@typesreact.md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react",
+      "type": "file",
+      "file": "@typesreact_1.md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom.md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom_1.md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_layout_rootlayout",
+      "type": "file",
+      "file": "RootLayout().md",
+      "x": 2840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_styles",
+      "type": "file",
+      "file": "apps_web_app_styles.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts_build",
+      "type": "file",
+      "file": "build.md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_dependencies",
+      "type": "file",
+      "file": "dependencies.md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts_dev",
+      "type": "file",
+      "file": "dev.md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_engines",
+      "type": "file",
+      "file": "engines.md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_eslint",
+      "type": "file",
+      "file": "eslint.md",
+      "x": 2840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_eslint",
+      "type": "file",
+      "file": "eslint_1.md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_eslint_config_next",
+      "type": "file",
+      "file": "eslint-config-next.md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_eslint_config_next",
+      "type": "file",
+      "file": "eslint-config-next_1.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_eslint_config",
+      "type": "file",
+      "file": "eslint.config.mjs.md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_layout",
+      "type": "file",
+      "file": "layout.tsx.md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts_lint",
+      "type": "file",
+      "file": "lint.md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_layout_metadata",
+      "type": "file",
+      "file": "metadata.md",
+      "x": 2840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_dependencies_next",
+      "type": "file",
+      "file": "next.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_next",
+      "type": "file",
+      "file": "next_1.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_next_config",
+      "type": "file",
+      "file": "next.config.ts.md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_next_config_nextconfig",
+      "type": "file",
+      "file": "nextConfig.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_engines_node",
+      "type": "file",
+      "file": "node.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_private",
+      "type": "file",
+      "file": "private.md",
+      "x": 2840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_dependencies_react",
+      "type": "file",
+      "file": "react.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react_dom",
+      "type": "file",
+      "file": "react-dom_1.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts",
+      "type": "file",
+      "file": "scripts.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts_start",
+      "type": "file",
+      "file": "start.md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_scripts_typecheck",
+      "type": "file",
+      "file": "typecheck.md",
+      "x": 2640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_devdependencies_typescript",
+      "type": "file",
+      "file": "typescript.md",
+      "x": 2840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_typescript",
+      "type": "file",
+      "file": "typescript_1.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package_version",
+      "type": "file",
+      "file": "version.md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_package",
+      "type": "file",
+      "file": "webpackage.json.md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Spatial JSON Schema",
+      "x": 3240,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_id",
+      "type": "file",
+      "file": "$id.md",
+      "x": 3260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_items_ref",
+      "type": "file",
+      "file": "$ref_2.md",
+      "x": 3460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_origin_ref",
+      "type": "file",
+      "file": "$ref_3.md",
+      "x": 3660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_schema",
+      "type": "file",
+      "file": "$schema.md",
+      "x": 3860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_3.md",
+      "x": 4060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_metadata_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_4.md",
+      "x": 4260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_schemaversion_const",
+      "type": "file",
+      "file": "const.md",
+      "x": 3260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_units_const",
+      "type": "file",
+      "file": "const_1.md",
+      "x": 3460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_constraints",
+      "type": "file",
+      "file": "constraints.md",
+      "x": 3660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraints_items",
+      "type": "file",
+      "file": "items_2.md",
+      "x": 3860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_levels_items",
+      "type": "file",
+      "file": "items_3.md",
+      "x": 4060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_levels",
+      "type": "file",
+      "file": "levels.md",
+      "x": 4260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "type": "file",
+      "file": "metadata_1.md",
+      "x": 3260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_levels_minitems",
+      "type": "file",
+      "file": "minItems.md",
+      "x": 3460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_origin",
+      "type": "file",
+      "file": "origin.md",
+      "x": 3660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_metadata_properties",
+      "type": "file",
+      "file": "properties_4.md",
+      "x": 3860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties",
+      "type": "file",
+      "file": "properties_5.md",
+      "x": 4060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_metadata_required",
+      "type": "file",
+      "file": "required_2.md",
+      "x": 4260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_required",
+      "type": "file",
+      "file": "required_3.md",
+      "x": 3260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_schemaversion",
+      "type": "file",
+      "file": "schemaVersion.md",
+      "x": 3460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_sourceversionid",
+      "type": "file",
+      "file": "sourceVersionId.md",
+      "x": 3660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_title",
+      "type": "file",
+      "file": "title.md",
+      "x": 3860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraints_type",
+      "type": "file",
+      "file": "type_10.md",
+      "x": 4060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_levels_type",
+      "type": "file",
+      "file": "type_11.md",
+      "x": 4260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_metadata_type",
+      "type": "file",
+      "file": "type_12.md",
+      "x": 3260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_sourceversionid_type",
+      "type": "file",
+      "file": "type_13.md",
+      "x": 3460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_type",
+      "type": "file",
+      "file": "type_14.md",
+      "x": 3660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_units",
+      "type": "file",
+      "file": "units.md",
+      "x": 3860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema",
+      "type": "file",
+      "file": "v1.schema.json.md",
+      "x": 4060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Persistence and AI Jobs",
+      "x": 4640,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_docs_adr_0001_modular_monolith_document",
+      "type": "file",
+      "file": "0001-modular-monolith.md",
+      "x": 4660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0004_background_jobs_document",
+      "type": "file",
+      "file": "0004-background-jobs.md",
+      "x": 4860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0005_ai_gateway_document",
+      "type": "file",
+      "file": "0005-ai-gateway.md",
+      "x": 5060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0006_application_stack_document",
+      "type": "file",
+      "file": "0006-application-stack.md",
+      "x": 5260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0005_ai_gateway_ai_gateway",
+      "type": "file",
+      "file": "AI Gateway.md",
+      "x": 5460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0005_ai_gateway_ai_provenance",
+      "type": "file",
+      "file": "AI provenance.md",
+      "x": 4660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_modules_readme_domain_modules",
+      "type": "file",
+      "file": "API domain modules.md",
+      "x": 4860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0004_background_jobs_job_outbox",
+      "type": "file",
+      "file": "Atomic job and outbox write.md",
+      "x": 5060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0004_background_jobs_dead_letter_queue",
+      "type": "file",
+      "file": "Dead letter queue.md",
+      "x": 5260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0005_ai_gateway_deterministic_validation",
+      "type": "file",
+      "file": "Deterministic validation after AI.md",
+      "x": 5460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_diagrams_system_context_generation_sequence",
+      "type": "file",
+      "file": "Generation job sequence.md",
+      "x": 4660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0004_background_jobs_idempotent_jobs",
+      "type": "file",
+      "file": "Idempotent background jobs.md",
+      "x": 4860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0001_modular_monolith_modular_monolith",
+      "type": "file",
+      "file": "Modular monolith.md",
+      "x": 5060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_modules_readme_module_ownership",
+      "type": "file",
+      "file": "Module data ownership.md",
+      "x": 5260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0006_application_stack_application_stack",
+      "type": "file",
+      "file": "Next.js and FastAPI stack.md",
+      "x": 5460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0006_application_stack_openapi_contract",
+      "type": "file",
+      "file": "OpenAPI and JSON Schema boundary.md",
+      "x": 4660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_readme_adr_registry",
+      "type": "file",
+      "file": "Proposed ADR registry.md",
+      "x": 4860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0005_ai_gateway_provider_adapter",
+      "type": "file",
+      "file": "Provider adapters.md",
+      "x": 5060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_decisions_decision_registry",
+      "type": "file",
+      "file": "Six proposed architecture decisions.md",
+      "x": 5260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_diagrams_system_context_system_context",
+      "type": "file",
+      "file": "System context flow.md",
+      "x": 5460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0001_modular_monolith_transactional_outbox",
+      "type": "file",
+      "file": "Transactional outbox.md",
+      "x": 4660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0004_background_jobs_worker_lease",
+      "type": "file",
+      "file": "Worker lease and heartbeat.md",
+      "x": 4860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_readme_document",
+      "type": "file",
+      "file": "adrREADME.md",
+      "x": 5060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_modules_readme_document",
+      "type": "file",
+      "file": "modulesREADME.md",
+      "x": 5260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_diagrams_system_context_document",
+      "type": "file",
+      "file": "system-context.md",
+      "x": 5460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "API Health and Settings",
+      "x": 5820,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_basemodel",
+      "type": "file",
+      "file": "BaseModel.md",
+      "x": 5840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_basesettings",
+      "type": "file",
+      "file": "BaseSettings.md",
+      "x": 6040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_fastapi",
+      "type": "file",
+      "file": "FastAPI.md",
+      "x": 6240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_api_routes_system_healthresponse",
+      "type": "file",
+      "file": "HealthResponse.md",
+      "x": 6440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_config_settings",
+      "type": "file",
+      "file": "Settings.md",
+      "x": 6640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_config",
+      "type": "file",
+      "file": "config.py.md",
+      "x": 5840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_main_create_app",
+      "type": "file",
+      "file": "create_app().md",
+      "x": 6040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_fastapi_middleware_cors",
+      "type": "file",
+      "file": "fastapi_middleware_cors.md",
+      "x": 6240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_fastapi_testclient",
+      "type": "file",
+      "file": "fastapi_testclient.md",
+      "x": 6440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_functools",
+      "type": "file",
+      "file": "functools.md",
+      "x": 6640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_get",
+      "type": "file",
+      "file": "get.md",
+      "x": 5840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_config_get_settings",
+      "type": "file",
+      "file": "get_settings().md",
+      "x": 6040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_api_routes_system_health",
+      "type": "file",
+      "file": "health().md",
+      "x": 6240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_main",
+      "type": "file",
+      "file": "main.py.md",
+      "x": 6440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_pydantic",
+      "type": "file",
+      "file": "pydantic.md",
+      "x": 6640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_pydantic_settings",
+      "type": "file",
+      "file": "pydantic_settings.md",
+      "x": 5840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_api_router",
+      "type": "file",
+      "file": "router.py.md",
+      "x": 6040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_api_routes_init",
+      "type": "file",
+      "file": "routes__init__.py.md",
+      "x": 6240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_api_routes_system",
+      "type": "file",
+      "file": "system.py.md",
+      "x": 6440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_tests_test_system_test_health_describes_running_service",
+      "type": "file",
+      "file": "test_health_describes_running_service().md",
+      "x": 6640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_tests_test_system_test_openapi_exposes_versioned_health_contract",
+      "type": "file",
+      "file": "test_openapi_exposes_versioned_health_contract().md",
+      "x": 5840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_tests_test_system",
+      "type": "file",
+      "file": "test_system.py.md",
+      "x": 6040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_typing",
+      "type": "file",
+      "file": "typing.md",
+      "x": 6240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Services and Security",
+      "x": 7000,
+      "y": 0,
+      "width": 1100,
+      "height": 520,
+      "color": "6"
+    },
+    {
+      "id": "n_docs_adr_0003_persistence_document",
+      "type": "file",
+      "file": "0003-persistence.md",
+      "x": 7020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_cost_exhaustion",
+      "type": "file",
+      "file": "AI cost exhaustion controls.md",
+      "x": 7220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_recovery",
+      "type": "file",
+      "file": "Backup and recovery controls.md",
+      "x": 7420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_product_requirements_privacy",
+      "type": "file",
+      "file": "Data minimization and deletion.md",
+      "x": 7620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_api",
+      "type": "file",
+      "file": "FastAPI service.md",
+      "x": 7820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_idor",
+      "type": "file",
+      "file": "IDOR and object authorization.md",
+      "x": 7020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_upload_abuse",
+      "type": "file",
+      "file": "Malicious upload controls.md",
+      "x": 7220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_object_storage",
+      "type": "file",
+      "file": "MinIO object storage service.md",
+      "x": 7420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_web",
+      "type": "file",
+      "file": "Next.js web service.md",
+      "x": 7620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_privacy_logging",
+      "type": "file",
+      "file": "No plans or prompts in telemetry.md",
+      "x": 7820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_postgres",
+      "type": "file",
+      "file": "PostGIS service.md",
+      "x": 7020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0003_persistence_postgres_postgis",
+      "type": "file",
+      "file": "PostgreSQLPostGIS persistence.md",
+      "x": 7220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0003_persistence_s3_assets",
+      "type": "file",
+      "file": "Private versioned S3-compatible assets.md",
+      "x": 7420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_prompt_injection",
+      "type": "file",
+      "file": "Prompt injection boundary.md",
+      "x": 7620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_redis",
+      "type": "file",
+      "file": "Redis queue and cache service.md",
+      "x": 7820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_threat_model",
+      "type": "file",
+      "file": "STRIDE threat model.md",
+      "x": 7020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_dangerous_ai",
+      "type": "file",
+      "file": "Unsafe AI result controls.md",
+      "x": 7220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_adr_0003_persistence_upload_quarantine",
+      "type": "file",
+      "file": "Upload quarantine.md",
+      "x": 7420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_compose_document",
+      "type": "file",
+      "file": "compose.yaml.md",
+      "x": 7620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_security_threat_model_document",
+      "type": "file",
+      "file": "threat-model.md",
+      "x": 7820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Discovery Scenarios and Personas",
+      "x": 8180,
+      "y": 0,
+      "width": 1100,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_discovery_readme_document",
+      "type": "file",
+      "file": "Discovery \u044d\u0442\u0430\u043f 0.md",
+      "x": 8200,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_project_creation",
+      "type": "file",
+      "file": "P0-01 \u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u043f\u0440\u043e\u0435\u043a\u0442.md",
+      "x": 8400,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_geometry_correction",
+      "type": "file",
+      "file": "P0-02 \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c \u0438 \u0438\u0441\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u044e.md",
+      "x": 8600,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_variant_comparison",
+      "type": "file",
+      "file": "P0-03 \u0421\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438 \u0441\u0440\u0430\u0432\u043d\u0438\u0442\u044c \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b.md",
+      "x": 8800,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_versioned_editing",
+      "type": "file",
+      "file": "P0-04 \u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043d\u043e\u0432\u0443\u044e \u0432\u0435\u0440\u0441\u0438\u044e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430.md",
+      "x": 9000,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_versioned_export",
+      "type": "file",
+      "file": "P0-05 \u0412\u0438\u0437\u0443\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f, \u0441\u043c\u0435\u0442\u0430 \u0438 \u044d\u043a\u0441\u043f\u043e\u0440\u0442 \u043e\u0434\u043d\u043e\u0439 \u0432\u0435\u0440\u0441\u0438\u0438.md",
+      "x": 8200,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_p0_scenarios_document",
+      "type": "file",
+      "file": "P0-\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u044d\u0442\u0430\u043f\u0430 MVP.md",
+      "x": 8400,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_readme_proxy_interview_acceptance",
+      "type": "file",
+      "file": "Proxy-\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043f\u0440\u0438\u043d\u044f\u0442\u044b \u0434\u043b\u044f \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0433\u043e \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f.md",
+      "x": 8600,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_personas_discovery_sample",
+      "type": "file",
+      "file": "\u0412\u044b\u0431\u043e\u0440\u043a\u0430 discovery 12\u201315 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432.md",
+      "x": 8800,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_personas_designer_secondary",
+      "type": "file",
+      "file": "\u0414\u0438\u0437\u0430\u0439\u043d\u0435\u0440 \u043a\u0430\u043a \u0432\u0442\u043e\u0440\u0438\u0447\u043d\u044b\u0439 \u0441\u0435\u0433\u043c\u0435\u043d\u0442.md",
+      "x": 9000,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_personas_primary_owner_persona",
+      "type": "file",
+      "file": "\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u0438\u043a \u043f\u0435\u0440\u0435\u0434 \u0440\u0435\u043c\u043e\u043d\u0442\u043e\u043c.md",
+      "x": 8200,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_personas_document",
+      "type": "file",
+      "file": "\u041f\u0435\u0440\u0441\u043e\u043d\u044b \u0438 \u0446\u0435\u043b\u0435\u0432\u043e\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c.md",
+      "x": 8400,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_prototype_test_plan_usability_thresholds",
+      "type": "file",
+      "file": "\u041f\u043e\u0440\u043e\u0433 \u0443\u0441\u043f\u0435\u0445\u0430 \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u0430 \u0438 \u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u044f \u043f\u0440\u0435\u0434\u0443\u043f\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0439.md",
+      "x": 8600,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_prototype_test_plan_document",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u043e\u0442\u043e\u0442\u0438\u043f\u0430 \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u0430.md",
+      "x": 8800,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_prototype_test_plan_editor_usability",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043f\u0440\u043e\u0442\u043e\u0442\u0438\u043f\u0430 \u0440\u0435\u0434\u0430\u043a\u0442\u043e\u0440\u0430 \u043d\u0430 5\u20137 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u0445.md",
+      "x": 9000,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_synthesis_2026_09_17_verified_current_variant",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u043c\u044b\u0439 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 \u0441 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0440\u0430\u0437\u043c\u0435\u0440\u0430\u043c\u0438.md",
+      "x": 8200,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_synthesis_2026_09_17_p0_decisions",
+      "type": "file",
+      "file": "\u0421\u0435\u043c\u044c \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f P0.md",
+      "x": 8400,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_synthesis_2026_09_17_document",
+      "type": "file",
+      "file": "\u0421\u0438\u043d\u0442\u0435\u0437 \u0440\u0430\u0431\u043e\u0447\u0435\u0433\u043e \u043f\u0430\u043a\u0435\u0442\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043e\u0442 17.09.2026.md",
+      "x": 8600,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_synthesis_2026_09_17_usability_next",
+      "type": "file",
+      "file": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043d\u0430 \u0444\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u0445.md",
+      "x": 8800,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_readme_stage_zero_gate",
+      "type": "file",
+      "file": "\u042d\u0442\u0430\u043f 0 \u0432\u044b\u0445\u043e\u0434\u043d\u043e\u0439 gate.md",
+      "x": 9000,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "TypeScript Compiler Settings",
+      "x": 0,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_allowjs",
+      "type": "file",
+      "file": "allowJs.md",
+      "x": 20,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions",
+      "type": "file",
+      "file": "compilerOptions.md",
+      "x": 220,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_esmoduleinterop",
+      "type": "file",
+      "file": "esModuleInterop.md",
+      "x": 420,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_exclude",
+      "type": "file",
+      "file": "exclude.md",
+      "x": 620,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_include",
+      "type": "file",
+      "file": "include.md",
+      "x": 820,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_incremental",
+      "type": "file",
+      "file": "incremental.md",
+      "x": 20,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_isolatedmodules",
+      "type": "file",
+      "file": "isolatedModules.md",
+      "x": 220,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_jsx",
+      "type": "file",
+      "file": "jsx.md",
+      "x": 420,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_lib",
+      "type": "file",
+      "file": "lib.md",
+      "x": 620,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_module",
+      "type": "file",
+      "file": "module.md",
+      "x": 820,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_moduleresolution",
+      "type": "file",
+      "file": "moduleResolution.md",
+      "x": 20,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_noemit",
+      "type": "file",
+      "file": "noEmit.md",
+      "x": 220,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_paths",
+      "type": "file",
+      "file": "paths.md",
+      "x": 420,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_plugins",
+      "type": "file",
+      "file": "plugins.md",
+      "x": 620,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_resolvejsonmodule",
+      "type": "file",
+      "file": "resolveJsonModule.md",
+      "x": 820,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_skiplibcheck",
+      "type": "file",
+      "file": "skipLibCheck.md",
+      "x": 20,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_strict",
+      "type": "file",
+      "file": "strict.md",
+      "x": 220,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig_compileroptions_target",
+      "type": "file",
+      "file": "target.md",
+      "x": 420,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_tsconfig",
+      "type": "file",
+      "file": "tsconfig.json.md",
+      "x": 620,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Web Package Scripts",
+      "x": 1620,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_package_scripts_build",
+      "type": "file",
+      "file": "build_1.md",
+      "x": 1640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_dev",
+      "type": "file",
+      "file": "dev_1.md",
+      "x": 1840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies_1.md",
+      "x": 2040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_docs_lint",
+      "type": "file",
+      "file": "docslint.md",
+      "x": 2240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_engines",
+      "type": "file",
+      "file": "engines_1.md",
+      "x": 2440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_format",
+      "type": "file",
+      "file": "format.md",
+      "x": 1640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_format_check",
+      "type": "file",
+      "file": "formatcheck.md",
+      "x": 1840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_lint",
+      "type": "file",
+      "file": "lint_1.md",
+      "x": 2040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_name",
+      "type": "file",
+      "file": "name_1.md",
+      "x": 2240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_engines_node",
+      "type": "file",
+      "file": "node_1.md",
+      "x": 2440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_engines_npm",
+      "type": "file",
+      "file": "npm.md",
+      "x": 1640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package",
+      "type": "file",
+      "file": "package.json.md",
+      "x": 1840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_devdependencies_prettier",
+      "type": "file",
+      "file": "prettier.md",
+      "x": 2040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_prettier",
+      "type": "file",
+      "file": "prettier_1.md",
+      "x": 2240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_private",
+      "type": "file",
+      "file": "private_1.md",
+      "x": 2440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts",
+      "type": "file",
+      "file": "scripts_1.md",
+      "x": 1640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_scripts_typecheck",
+      "type": "file",
+      "file": "typecheck_1.md",
+      "x": 1840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_version",
+      "type": "file",
+      "file": "version_1.md",
+      "x": 2040,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_package_workspaces",
+      "type": "file",
+      "file": "workspaces.md",
+      "x": 2240,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Graph Maintenance Workflow",
+      "x": 3240,
+      "y": 900,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_knowledge_graph_2026_09_25",
+      "type": "file",
+      "file": "2026-09-25 graph maintenance record.md",
+      "x": 3260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_baseline_health",
+      "type": "file",
+      "file": "Baseline graph health findings.md",
+      "x": 3460,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contributing_document",
+      "type": "file",
+      "file": "Contribution and review workflow.md",
+      "x": 3660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_knowledge_graph_maintenance",
+      "type": "file",
+      "file": "Future-session graph maintenance rule.md",
+      "x": 3860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contributing_review_graph",
+      "type": "file",
+      "file": "Graph review requirement in pull requests.md",
+      "x": 3260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_update_workflow",
+      "type": "file",
+      "file": "Incremental Graphify update workflow.md",
+      "x": 3460,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_document",
+      "type": "file",
+      "file": "Knowledge graph maintenance guide.md",
+      "x": 3660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_obsidian_export",
+      "type": "file",
+      "file": "Obsidian vault refresh.md",
+      "x": 3860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_knowledge_document",
+      "type": "file",
+      "file": "Project working memory.md",
+      "x": 3260,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_agents_read_knowledge",
+      "type": "file",
+      "file": "Read project knowledge before editing.md",
+      "x": 3460,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_agents_document",
+      "type": "file",
+      "file": "Repository agent instructions.md",
+      "x": 3660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_agents_update_graph",
+      "type": "file",
+      "file": "Update and verify graph after every change.md",
+      "x": 3860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_knowledge_graph_relationship_review",
+      "type": "file",
+      "file": "Verify new nodes and sourced cross-area relationships.md",
+      "x": 3260,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Research Hypotheses and Synthesis",
+      "x": 4640,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_docs_research_evidence_map_document",
+      "type": "file",
+      "file": "Evidence map \u043f\u0430\u043a\u0435\u0442 I-01 \u2014 I-12.md",
+      "x": 4660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_evidence_map_visual_not_functional",
+      "type": "file",
+      "file": "\u0412\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u043d\u0435 \u0434\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c 1012 proxy.md",
+      "x": 4860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_evidence_map_privacy_minimization",
+      "type": "file",
+      "file": "\u041c\u0438\u043d\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u0430\u0434\u0440\u0435\u0441\u0430 \u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 812 proxy.md",
+      "x": 5060,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_interview_plan_document",
+      "type": "file",
+      "file": "\u041f\u043b\u0430\u043d \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u043d\u044b\u0445 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e.md",
+      "x": 5260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_interview_plan_problem_interviews",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0431\u043b\u0435\u043c\u043d\u044b\u0435 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e \u043e \u0444\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u0440\u0435\u043c\u043e\u043d\u0442\u0435.md",
+      "x": 4660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_evidence_map_version_sprawl",
+      "type": "file",
+      "file": "\u0420\u0430\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u0435 \u0432\u0435\u0440\u0441\u0438\u0439 \u043c\u0435\u0436\u0434\u0443 \u0444\u0430\u0439\u043b\u0430\u043c\u0438 \u0438 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438 912 proxy.md",
+      "x": 4860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_assumptions_register_hypothesis_register",
+      "type": "file",
+      "file": "\u0420\u0435\u0435\u0441\u0442\u0440 \u0433\u0438\u043f\u043e\u0442\u0435\u0437 H-01\u2013H-10.md",
+      "x": 5060,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_assumptions_register_document",
+      "type": "file",
+      "file": "\u0420\u0435\u0435\u0441\u0442\u0440 \u0433\u0438\u043f\u043e\u0442\u0435\u0437 \u0438 \u0434\u043e\u043f\u0443\u0449\u0435\u043d\u0438\u0439.md",
+      "x": 5260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_assumptions_register_proxy_signal",
+      "type": "file",
+      "file": "\u0421\u0438\u0433\u043d\u0430\u043b proxy \u043d\u0435 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u0433\u0438\u043f\u043e\u0442\u0435\u0437\u0443 \u0432\u043d\u0435\u0448\u043d\u0435.md",
+      "x": 4660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_interview_plan_research_synthesis",
+      "type": "file",
+      "file": "\u0421\u0438\u043d\u0442\u0435\u0437 \u043f\u043e\u0441\u043b\u0435 \u043a\u0430\u0436\u0434\u044b\u0445 \u0442\u0440\u0451\u0445 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e.md",
+      "x": 4860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_evidence_map_evidence_limits",
+      "type": "file",
+      "file": "\u0427\u0430\u0441\u0442\u043e\u0442\u044b proxy-\u043d\u0430\u0431\u043e\u0440\u0430 \u043d\u0435 \u043e\u0446\u0435\u043d\u0438\u0432\u0430\u044e\u0442 \u0440\u044b\u043d\u043e\u043a.md",
+      "x": 5060,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Editor Prototype Flow",
+      "x": 5820,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_editorprototype",
+      "type": "file",
+      "file": "EditorPrototype().md",
+      "x": 5840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_furnitureitem",
+      "type": "file",
+      "file": "FurnitureItem.md",
+      "x": 6040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_page_home",
+      "type": "file",
+      "file": "Home().md",
+      "x": 6240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_initial_items",
+      "type": "file",
+      "file": "INITIAL_ITEMS.md",
+      "x": 6440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_journeypanel",
+      "type": "file",
+      "file": "JourneyPanel().md",
+      "x": 5840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_steps",
+      "type": "file",
+      "file": "STEPS.md",
+      "x": 6040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype_step",
+      "type": "file",
+      "file": "Step.md",
+      "x": 6240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_components_editor_prototype",
+      "type": "file",
+      "file": "editor-prototype.tsx.md",
+      "x": 6440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_app_page",
+      "type": "file",
+      "file": "page.tsx.md",
+      "x": 5840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react",
+      "type": "file",
+      "file": "react_1.md",
+      "x": 6040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Catalog Item Schema",
+      "x": 7000,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_position_ref",
+      "type": "file",
+      "file": "$ref.md",
+      "x": 7020,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_size_ref",
+      "type": "file",
+      "file": "$ref_1.md",
+      "x": 7220,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_catalogitemid",
+      "type": "file",
+      "file": "catalogItemId.md",
+      "x": 7420,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_rotation_default",
+      "type": "file",
+      "file": "default.md",
+      "x": 7620,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_position",
+      "type": "file",
+      "file": "position.md",
+      "x": 7020,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_object_properties",
+      "type": "file",
+      "file": "properties.md",
+      "x": 7220,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_rotation",
+      "type": "file",
+      "file": "rotation.md",
+      "x": 7420,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_size",
+      "type": "file",
+      "file": "size.md",
+      "x": 7620,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_catalogitemid_type",
+      "type": "file",
+      "file": "type.md",
+      "x": 7020,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_rotation_type",
+      "type": "file",
+      "file": "type_1.md",
+      "x": 7220,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Constraint Schema Fields",
+      "x": 8180,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraint_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties.md",
+      "x": 8200,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_parameters_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_1.md",
+      "x": 8400,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "type": "file",
+      "file": "constraint.md",
+      "x": 8600,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_severity_enum",
+      "type": "file",
+      "file": "enum.md",
+      "x": 8800,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_parameters",
+      "type": "file",
+      "file": "parameters.md",
+      "x": 8200,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "type": "file",
+      "file": "properties_1.md",
+      "x": 8400,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraint_required",
+      "type": "file",
+      "file": "required.md",
+      "x": 8600,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_severity",
+      "type": "file",
+      "file": "severity.md",
+      "x": 8800,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_constraint_type",
+      "type": "file",
+      "file": "type_2.md",
+      "x": 8200,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_parameters_type",
+      "type": "file",
+      "file": "type_3.md",
+      "x": 8400,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Level Structure Schema",
+      "x": 0,
+      "y": 1500,
+      "width": 880,
+      "height": 420,
+      "color": "3"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_level_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_2.md",
+      "x": 20,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_elevation",
+      "type": "file",
+      "file": "elevation.md",
+      "x": 220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_entities",
+      "type": "file",
+      "file": "entities.md",
+      "x": 420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_entities_items",
+      "type": "file",
+      "file": "items.md",
+      "x": 620,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_level",
+      "type": "file",
+      "file": "level.md",
+      "x": 20,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_level_properties",
+      "type": "file",
+      "file": "properties_2.md",
+      "x": 220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_level_required",
+      "type": "file",
+      "file": "required_1.md",
+      "x": 420,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_elevation_type",
+      "type": "file",
+      "file": "type_4.md",
+      "x": 620,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_entities_type",
+      "type": "file",
+      "file": "type_5.md",
+      "x": 20,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_level_type",
+      "type": "file",
+      "file": "type_6.md",
+      "x": 220,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Research Provenance",
+      "x": 1620,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "n_docs_research_interviews_i_01_proxy_status",
+      "type": "file",
+      "file": "I-01 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 1640,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_11_proxy_status",
+      "type": "file",
+      "file": "I-11 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 1840,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_readme_document",
+      "type": "file",
+      "file": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b.md",
+      "x": 2040,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_11_observed_pain",
+      "type": "file",
+      "file": "\u041c\u0435\u043b\u043a\u0438\u0435 \u043f\u0440\u0430\u0432\u043a\u0438 \u0438 \u043d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u0440\u0430\u0437\u043c\u0435\u0440 \u043d\u0430\u043a\u0430\u043f\u043b\u0438\u0432\u0430\u044e\u0442 \u0437\u0430\u0442\u0440\u0430\u0442\u044b.md",
+      "x": 1640,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_readme_proxy_research_status",
+      "type": "file",
+      "file": "\u041c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0435 \u0437\u0430\u043f\u0438\u0441\u0438 \u043a\u0430\u043a proxy \u0434\u043b\u044f \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439.md",
+      "x": 1840,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_11_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-11.md",
+      "x": 2040,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_11_trust_boundary",
+      "type": "file",
+      "file": "\u0420\u0443\u0447\u043d\u0430\u044f \u0432\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043d\u043e\u0439 \u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u0438.md",
+      "x": 1640,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_readme_actual_interview_requirements",
+      "type": "file",
+      "file": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0444\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e.md",
+      "x": 1840,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "Entity Point Definitions",
+      "x": 3240,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs",
+      "type": "file",
+      "file": "$defs.md",
+      "x": 3260,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_entity",
+      "type": "file",
+      "file": "entity.md",
+      "x": 3460,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_point_items",
+      "type": "file",
+      "file": "items_1.md",
+      "x": 3660,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_entity_oneof",
+      "type": "file",
+      "file": "oneOf.md",
+      "x": 3260,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_point",
+      "type": "file",
+      "file": "point.md",
+      "x": 3460,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_point_prefixitems",
+      "type": "file",
+      "file": "prefixItems.md",
+      "x": 3660,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_point_type",
+      "type": "file",
+      "file": "type_7.md",
+      "x": 3260,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "label": "Wall Geometry Schema",
+      "x": 4640,
+      "y": 1500,
+      "width": 660,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_thickness_exclusiveminimum",
+      "type": "file",
+      "file": "exclusiveMinimum.md",
+      "x": 4660,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_id",
+      "type": "file",
+      "file": "id.md",
+      "x": 4860,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_id_minlength",
+      "type": "file",
+      "file": "minLength.md",
+      "x": 5060,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "type": "file",
+      "file": "properties_3.md",
+      "x": 4660,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_thickness",
+      "type": "file",
+      "file": "thickness.md",
+      "x": 4860,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_id_type",
+      "type": "file",
+      "file": "type_8.md",
+      "x": 5060,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_thickness_type",
+      "type": "file",
+      "file": "type_9.md",
+      "x": 4660,
+      "y": 1740,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g18",
+      "type": "group",
+      "label": "Renovation Evidence Limits",
+      "x": 5820,
+      "y": 1500,
+      "width": 660,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_research_interviews_i_12_proxy_status",
+      "type": "file",
+      "file": "I-12 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 5840,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_12_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-12.md",
+      "x": 6040,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_readme_interview_package",
+      "type": "file",
+      "file": "\u041f\u0430\u043a\u0435\u0442 I-01\u2013I-12 \u0438\u0437 12 proxy-\u0437\u0430\u043f\u0438\u0441\u0435\u0439.md",
+      "x": 6240,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_readme_document",
+      "type": "file",
+      "file": "\u041f\u0430\u043a\u0435\u0442 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-01 \u2014 I-12.md",
+      "x": 5840,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_12_observed_pain",
+      "type": "file",
+      "file": "\u041f\u0435\u0440\u0435\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0430 \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0430 \u0434\u043e\u043c\u0430 \u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432.md",
+      "x": 6040,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_12_trust_boundary",
+      "type": "file",
+      "file": "\u041f\u043e \u043e\u0434\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435 \u043d\u0435\u043b\u044c\u0437\u044f \u0437\u0430\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u043e\u0441\u0442\u044c.md",
+      "x": 6240,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g19",
+      "type": "group",
+      "label": "Continuous Integration Checks",
+      "x": 7000,
+      "y": 1500,
+      "width": 660,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n__github_workflows_ci_api_contract_checks",
+      "type": "file",
+      "file": "API and spatial contract checks.md",
+      "x": 7020,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_ci_ci_gates",
+      "type": "file",
+      "file": "CI quality gates.md",
+      "x": 7220,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_ci_container_config_check",
+      "type": "file",
+      "file": "Docker Compose configuration check.md",
+      "x": 7420,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_ci_web_checks",
+      "type": "file",
+      "file": "Web lint, typecheck and build.md",
+      "x": 7020,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_workflows_ci_document",
+      "type": "file",
+      "file": "ci.yml.md",
+      "x": 7220,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g20",
+      "type": "group",
+      "label": "Spatial Contract Validator",
+      "x": 8180,
+      "y": 1500,
+      "width": 660,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_json",
+      "type": "file",
+      "file": "json.md",
+      "x": 8200,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_jsonschema",
+      "type": "file",
+      "file": "jsonschema.md",
+      "x": 8400,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_scripts_validate_spatial_contract_main",
+      "type": "file",
+      "file": "main().md",
+      "x": 8600,
+      "y": 1580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_pathlib",
+      "type": "file",
+      "file": "pathlib.md",
+      "x": 8200,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_scripts_validate_spatial_contract",
+      "type": "file",
+      "file": "validate_spatial_contract.py.md",
+      "x": 8400,
+      "y": 1660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g21",
+      "type": "group",
+      "label": "Web Agent Guidance",
+      "x": 0,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_apps_web_agents_document",
+      "type": "file",
+      "file": "AGENTS.md",
+      "x": 20,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_claude_document",
+      "type": "file",
+      "file": "CLAUDE.md",
+      "x": 220,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_agents_nextjs_rules",
+      "type": "file",
+      "file": "Next.js version-specific rules.md",
+      "x": 20,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_web_claude_agent_reference",
+      "type": "file",
+      "file": "Reference to AGENTS.md",
+      "x": 220,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g22",
+      "type": "group",
+      "label": "Schema Object Rules",
+      "x": 1620,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_object_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_5.md",
+      "x": 1640,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_object",
+      "type": "file",
+      "file": "object.md",
+      "x": 1840,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_object_required",
+      "type": "file",
+      "file": "required_4.md",
+      "x": 1640,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_object_type",
+      "type": "file",
+      "file": "type_15.md",
+      "x": 1840,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g23",
+      "type": "group",
+      "label": "Wall Object Schema",
+      "x": 3240,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_wall_additionalproperties",
+      "type": "file",
+      "file": "additionalProperties_6.md",
+      "x": 3260,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_wall_required",
+      "type": "file",
+      "file": "required_5.md",
+      "x": 3460,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_wall_type",
+      "type": "file",
+      "file": "type_16.md",
+      "x": 3260,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "type": "file",
+      "file": "wall.md",
+      "x": 3460,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g24",
+      "type": "group",
+      "label": "Entity Reference Schema",
+      "x": 4640,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_entityids",
+      "type": "file",
+      "file": "entityIds.md",
+      "x": 4660,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_entityids_items",
+      "type": "file",
+      "file": "items_4.md",
+      "x": 4860,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_entityids_type",
+      "type": "file",
+      "file": "type_17.md",
+      "x": 4660,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_items_type",
+      "type": "file",
+      "file": "type_18.md",
+      "x": 4860,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g25",
+      "type": "group",
+      "label": "Path Item Schema",
+      "x": 5820,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_path_items",
+      "type": "file",
+      "file": "items_5.md",
+      "x": 5840,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_path_minitems",
+      "type": "file",
+      "file": "minItems_1.md",
+      "x": 6040,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_path",
+      "type": "file",
+      "file": "path.md",
+      "x": 5840,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_path_type",
+      "type": "file",
+      "file": "type_19.md",
+      "x": 6040,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g26",
+      "type": "group",
+      "label": "Identifier Schema Rules",
+      "x": 7000,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_type_const",
+      "type": "file",
+      "file": "const_2.md",
+      "x": 7020,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_type_minlength",
+      "type": "file",
+      "file": "minLength_1.md",
+      "x": 7220,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_properties_type",
+      "type": "file",
+      "file": "type_20.md",
+      "x": 7020,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_contracts_spatial_model_v1_schema_type_type",
+      "type": "file",
+      "file": "type_21.md",
+      "x": 7220,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g27",
+      "type": "group",
+      "label": "Market and Provider Choice",
+      "x": 8180,
+      "y": 2000,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_docs_discovery_market_and_providers_provider_neutral_baseline",
+      "type": "file",
+      "file": "Provider-neutral baseline PostgreSQLPostGIS, Redis, S3.md",
+      "x": 8200,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_market_and_providers_vendor_review_gate",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 cloud \u0438 AICV \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u0430 \u0434\u043e production.md",
+      "x": 8400,
+      "y": 2080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_market_and_providers_document",
+      "type": "file",
+      "file": "\u0420\u0435\u0448\u0435\u043d\u0438\u0435 \u043f\u043e \u0440\u044b\u043d\u043a\u0443, \u0440\u0435\u0433\u0438\u043e\u043d\u0443 \u0438 \u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440\u0430\u043c.md",
+      "x": 8200,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_market_and_providers_russia_mvp_market",
+      "type": "file",
+      "file": "\u0420\u043e\u0441\u0441\u0438\u044f \u043a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439 \u0440\u044b\u043d\u043e\u043a MVP.md",
+      "x": 8400,
+      "y": 2160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g28",
+      "type": "group",
+      "label": "Product Metrics",
+      "x": 0,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_docs_discovery_metrics_time_to_first_result",
+      "type": "file",
+      "file": "Time to first result p50 \u226415 \u043c\u0438\u043d\u0443\u0442.md",
+      "x": 20,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_metrics_privacy_event_envelope",
+      "type": "file",
+      "file": "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u0431\u0435\u0437 \u043f\u043b\u0430\u043d\u043e\u0432 \u0438 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445.md",
+      "x": 220,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_metrics_saved_valid_variant",
+      "type": "file",
+      "file": "\u0414\u043e\u043b\u044f \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u0441 \u0441\u043e\u0445\u0440\u0430\u043d\u0451\u043d\u043d\u044b\u043c \u0432\u0430\u043b\u0438\u0434\u043d\u044b\u043c \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u043c.md",
+      "x": 20,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_discovery_metrics_document",
+      "type": "file",
+      "file": "\u041c\u0435\u0442\u0440\u0438\u043a\u0438 \u0438 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043d\u0442\u0440\u0430\u043a\u0442.md",
+      "x": 220,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g29",
+      "type": "group",
+      "label": "Interview I-01",
+      "x": 1620,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_docs_research_interviews_i_01_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-01.md",
+      "x": 1640,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_01_trust_boundary",
+      "type": "file",
+      "file": "\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u043b\u0430\u043d\u0430 \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432 \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432.md",
+      "x": 1840,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_evidence_map_geometry_source",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430 \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432 \u0438 \u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u0438 1212 proxy.md",
+      "x": 1640,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_01_observed_pain",
+      "type": "file",
+      "file": "\u0420\u0443\u0447\u043d\u043e\u0439 \u043f\u0435\u0440\u0435\u043d\u043e\u0441 \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432 \u0438 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u0434\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u043a\u0438.md",
+      "x": 1840,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g30",
+      "type": "group",
+      "label": "Interview I-02",
+      "x": 3240,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_research_interviews_i_02_proxy_status",
+      "type": "file",
+      "file": "I-02 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 3260,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_02_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-02.md",
+      "x": 3460,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_02_trust_boundary",
+      "type": "file",
+      "file": "\u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u043c\u044b\u0435 \u0438\u0441\u0445\u043e\u0434\u043d\u044b\u0435 \u0440\u0430\u0437\u043c\u0435\u0440\u044b \u0431\u0435\u0437 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432.md",
+      "x": 3260,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_02_observed_pain",
+      "type": "file",
+      "file": "\u0423\u0441\u043b\u043e\u0432\u043d\u044b\u0435 \u0440\u0430\u0437\u043c\u0435\u0440\u044b \u043c\u0435\u0431\u0435\u043b\u0438 \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0442 \u0441 \u043a\u0443\u0445\u043d\u0435\u0439 \u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u043a\u043e\u0439.md",
+      "x": 3460,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g31",
+      "type": "group",
+      "label": "Interview I-03",
+      "x": 4640,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_docs_research_interviews_i_03_proxy_status",
+      "type": "file",
+      "file": "I-03 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 4660,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_03_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-03.md",
+      "x": 4860,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_03_observed_pain",
+      "type": "file",
+      "file": "\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 \u0438\u0442\u0435\u0440\u0430\u0446\u0438\u0438 \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438.md",
+      "x": 4660,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_03_trust_boundary",
+      "type": "file",
+      "file": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u0430\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0441\u0442\u0435\u043d, \u043c\u043e\u043a\u0440\u044b\u0445 \u0437\u043e\u043d \u0438 \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u0438\u0438.md",
+      "x": 4860,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g32",
+      "type": "group",
+      "label": "Interview I-04",
+      "x": 5820,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_docs_research_interviews_i_04_proxy_status",
+      "type": "file",
+      "file": "I-04 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 5840,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_04_observed_pain",
+      "type": "file",
+      "file": "\u041c\u0430\u043b\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u0442\u043e\u0447\u043d\u044b\u0445 \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432 \u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f.md",
+      "x": 6040,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_04_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-04.md",
+      "x": 5840,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_04_trust_boundary",
+      "type": "file",
+      "file": "\u0421\u043a\u0435\u043f\u0441\u0438\u0441 \u043a 3D \u0431\u0435\u0437 \u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432; \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u043b\u0438\u0447\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445.md",
+      "x": 6040,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g33",
+      "type": "group",
+      "label": "Interview I-05",
+      "x": 7000,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_docs_research_interviews_i_05_proxy_status",
+      "type": "file",
+      "file": "I-05 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 7020,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_05_trust_boundary",
+      "type": "file",
+      "file": "\u0414\u043e\u0432\u0435\u0440\u0438\u0435 \u0440\u0430\u0441\u0442\u0451\u0442 \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430 \u043c\u0430\u0441\u0442\u0435\u0440\u043e\u043c.md",
+      "x": 7220,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_05_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-05.md",
+      "x": 7020,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_05_observed_pain",
+      "type": "file",
+      "file": "\u0420\u0430\u0437\u0440\u043e\u0437\u043d\u0435\u043d\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0442\u0440\u0435\u0431\u0443\u044e\u0442 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u0432\u0435\u0440\u0441\u0438\u0438.md",
+      "x": 7220,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g34",
+      "type": "group",
+      "label": "Interview I-06",
+      "x": 8180,
+      "y": 2480,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_docs_research_interviews_i_06_proxy_status",
+      "type": "file",
+      "file": "I-06 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 8200,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_06_observed_pain",
+      "type": "file",
+      "file": "\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u044f\u0434\u0447\u0438\u043a\u043e\u0432 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 \u043f\u0435\u0440\u0435\u0434\u0435\u043b\u043a\u0438 \u0438 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438.md",
+      "x": 8400,
+      "y": 2560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_06_trust_boundary",
+      "type": "file",
+      "file": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0438\u0437\u043c\u0435\u0440\u0435\u043d\u0438\u0439 \u0438 \u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441 \u043f\u0435\u0440\u0435\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u043e\u0439.md",
+      "x": 8200,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_06_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-06.md",
+      "x": 8400,
+      "y": 2640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g35",
+      "type": "group",
+      "label": "Interview I-07",
+      "x": 0,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_docs_research_interviews_i_07_proxy_status",
+      "type": "file",
+      "file": "I-07 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 20,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_07_trust_boundary",
+      "type": "file",
+      "file": "\u041c\u0435\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u044b\u0435 \u0440\u0430\u0437\u043c\u0435\u0440\u044b.md",
+      "x": 220,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_07_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-07.md",
+      "x": 20,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_07_observed_pain",
+      "type": "file",
+      "file": "\u0420\u0435\u0430\u043b\u044c\u043d\u0430\u044f \u043c\u0435\u0431\u0435\u043b\u044c \u0438 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438 \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043e\u0442\u043b\u0438\u0447\u0430\u044e\u0442\u0441\u044f \u043e\u0442 \u043a\u043e\u043d\u0446\u0435\u043f\u0442\u0430.md",
+      "x": 220,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g36",
+      "type": "group",
+      "label": "Interview I-08",
+      "x": 1620,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_docs_research_interviews_i_08_proxy_status",
+      "type": "file",
+      "file": "I-08 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 1640,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_08_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-08.md",
+      "x": 1840,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_08_observed_pain",
+      "type": "file",
+      "file": "\u0420\u043e\u0437\u0435\u0442\u043a\u0438 \u0438 \u043c\u0435\u0431\u0435\u043b\u044c \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u043b\u0438 \u0441 \u0443\u0441\u043b\u043e\u0432\u043d\u044b\u043c \u043f\u043b\u0430\u043d\u043e\u043c.md",
+      "x": 1640,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_08_trust_boundary",
+      "type": "file",
+      "file": "\u0427\u0435\u0440\u0442\u0451\u0436\u043d\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441 \u0441\u0447\u0438\u0442\u0430\u043b\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0437\u0443\u0430\u043b\u044c\u043d\u044b\u043c \u0447\u0435\u0440\u043d\u043e\u0432\u0438\u043a\u043e\u043c.md",
+      "x": 1840,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g37",
+      "type": "group",
+      "label": "Interview I-09",
+      "x": 3240,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_docs_research_interviews_i_09_proxy_status",
+      "type": "file",
+      "file": "I-09 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 3260,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_09_observed_pain",
+      "type": "file",
+      "file": "\u041a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u044b \u043f\u043e\u0434\u0440\u044f\u0434\u0447\u0438\u043a\u043e\u0432 \u0431\u0435\u0437 \u0435\u0434\u0438\u043d\u043e\u0433\u043e \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430.md",
+      "x": 3460,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_09_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-09.md",
+      "x": 3260,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_09_trust_boundary",
+      "type": "file",
+      "file": "\u0427\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u044a\u044f\u0441\u043d\u0435\u043d\u0438\u0435 \u0438 \u043e\u0442\u043a\u0430\u0437 \u043e\u0442 \u0430\u0434\u0440\u0435\u0441\u0430 \u0432 \u0441\u0435\u0440\u0432\u0438\u0441\u0435.md",
+      "x": 3460,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g38",
+      "type": "group",
+      "label": "Interview I-10",
+      "x": 4640,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_docs_research_interviews_i_10_proxy_status",
+      "type": "file",
+      "file": "I-10 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u0430\u044f proxy-\u0437\u0430\u043f\u0438\u0441\u044c.md",
+      "x": 4660,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_10_observed_pain",
+      "type": "file",
+      "file": "\u0414\u0438\u0437\u0430\u0439\u043d\u0435\u0440 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0438\u0442 \u0440\u0430\u0437\u043c\u044b\u0442\u044b\u0439 \u0431\u0440\u0438\u0444 \u0432 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043e\u043a.md",
+      "x": 4860,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_10_trust_boundary",
+      "type": "file",
+      "file": "\u041a\u043e\u043d\u0446\u0435\u043f\u0442 \u043e\u0442\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u0442 \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0439 \u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u0438.md",
+      "x": 4660,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docs_research_interviews_i_10_document",
+      "type": "file",
+      "file": "\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430 \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e I-10.md",
+      "x": 4860,
+      "y": 3120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g39",
+      "type": "group",
+      "label": "Dependency Updates",
+      "x": 5820,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n__github_dependabot_dependency_updates",
+      "type": "file",
+      "file": "Weekly dependency updates.md",
+      "x": 5840,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n__github_dependabot_document",
+      "type": "file",
+      "file": "dependabot.yml.md",
+      "x": 6040,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g40",
+      "type": "group",
+      "label": "API Package",
+      "x": 7000,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_apps_api_app_init_rationale_1",
+      "type": "file",
+      "file": "AI Home Modeler API package..md",
+      "x": 7020,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_apps_api_app_init",
+      "type": "file",
+      "file": "app__init__.py.md",
+      "x": 7220,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g41",
+      "type": "group",
+      "label": "API Module",
+      "x": 8180,
+      "y": 2960,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_apps_api_app_api_init",
+      "type": "file",
+      "file": "api__init__.py.md",
+      "x": 8200,
+      "y": 3040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g42",
+      "type": "group",
+      "label": "API Project Metadata",
+      "x": 0,
+      "y": 3440,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_pkg_ai_home_modeler_api",
+      "type": "file",
+      "file": "ai-home-modeler-api.md",
+      "x": 20,
+      "y": 3520,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_apps_web_components_editor_prototype_furnitureitem_apps_web_components_editor_prototype",
+      "fromNode": "n_apps_web_components_editor_prototype_furnitureitem",
+      "toNode": "n_apps_web_components_editor_prototype",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_step_apps_web_components_editor_prototype",
+      "fromNode": "n_apps_web_components_editor_prototype_step",
+      "toNode": "n_apps_web_components_editor_prototype",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_healthresponse_apps_api_app_api_routes_system_health",
+      "fromNode": "n_apps_api_app_api_routes_system_healthresponse",
+      "toNode": "n_apps_api_app_api_routes_system_health",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_healthresponse_apps_api_app_api_routes_system",
+      "fromNode": "n_apps_api_app_api_routes_system_healthresponse",
+      "toNode": "n_apps_api_app_api_routes_system",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_healthresponse_basemodel",
+      "fromNode": "n_apps_api_app_api_routes_system_healthresponse",
+      "toNode": "n_basemodel",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_settings_apps_api_app_config_get_settings",
+      "fromNode": "n_apps_api_app_config_settings",
+      "toNode": "n_apps_api_app_config_get_settings",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_settings_apps_api_app_config",
+      "fromNode": "n_apps_api_app_config_settings",
+      "toNode": "n_apps_api_app_config",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_settings_basesettings",
+      "fromNode": "n_apps_api_app_config_settings",
+      "toNode": "n_basesettings",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_layout_rootlayout_apps_web_app_layout",
+      "fromNode": "n_apps_web_app_layout_rootlayout",
+      "toNode": "n_apps_web_app_layout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_page_home_apps_web_app_page",
+      "fromNode": "n_apps_web_app_page_home",
+      "toNode": "n_apps_web_app_page",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_editorprototype_apps_web_app_page",
+      "fromNode": "n_apps_web_components_editor_prototype_editorprototype",
+      "toNode": "n_apps_web_app_page",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_editorprototype_apps_web_components_editor_prototype",
+      "fromNode": "n_apps_web_components_editor_prototype_editorprototype",
+      "toNode": "n_apps_web_components_editor_prototype",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_journeypanel_apps_web_components_editor_prototype",
+      "fromNode": "n_apps_web_components_editor_prototype_journeypanel",
+      "toNode": "n_apps_web_components_editor_prototype",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_validate_spatial_contract_main_scripts_validate_spatial_contract",
+      "fromNode": "n_scripts_validate_spatial_contract_main",
+      "toNode": "n_scripts_validate_spatial_contract",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_health_apps_api_app_config_get_settings",
+      "fromNode": "n_apps_api_app_api_routes_system_health",
+      "toNode": "n_apps_api_app_config_get_settings",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_health_get",
+      "fromNode": "n_apps_api_app_api_routes_system_health",
+      "toNode": "n_get",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_health_apps_api_app_api_routes_system",
+      "fromNode": "n_apps_api_app_api_routes_system_health",
+      "toNode": "n_apps_api_app_api_routes_system",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_get_settings_apps_api_app_main_create_app",
+      "fromNode": "n_apps_api_app_config_get_settings",
+      "toNode": "n_apps_api_app_main_create_app",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_get_settings_apps_api_app_api_routes_system",
+      "fromNode": "n_apps_api_app_config_get_settings",
+      "toNode": "n_apps_api_app_api_routes_system",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_get_settings_apps_api_app_main",
+      "fromNode": "n_apps_api_app_config_get_settings",
+      "toNode": "n_apps_api_app_main",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_get_settings_apps_api_app_config",
+      "fromNode": "n_apps_api_app_config_get_settings",
+      "toNode": "n_apps_api_app_config",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_main_create_app_fastapi",
+      "fromNode": "n_apps_api_app_main_create_app",
+      "toNode": "n_fastapi",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_main_create_app_apps_api_app_main",
+      "fromNode": "n_apps_api_app_main_create_app",
+      "toNode": "n_apps_api_app_main",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_tests_test_system_test_health_describes_running_service_apps_api_tests_test_system",
+      "fromNode": "n_apps_api_tests_test_system_test_health_describes_running_service",
+      "toNode": "n_apps_api_tests_test_system",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_tests_test_system_test_openapi_exposes_versioned_health_contract_apps_api_tests_test_system",
+      "fromNode": "n_apps_api_tests_test_system_test_openapi_exposes_versioned_health_contract",
+      "toNode": "n_apps_api_tests_test_system",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_layout_ref_next",
+      "fromNode": "n_apps_web_app_layout",
+      "toNode": "n_ref_next",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_layout_apps_web_app_styles",
+      "fromNode": "n_apps_web_app_layout",
+      "toNode": "n_apps_web_app_styles",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_layout_apps_web_app_layout_metadata",
+      "fromNode": "n_apps_web_app_layout",
+      "toNode": "n_apps_web_app_layout_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_eslint_config_ref_eslint",
+      "fromNode": "n_apps_web_eslint_config",
+      "toNode": "n_ref_eslint",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_eslint_config_ref_eslint_config_next",
+      "fromNode": "n_apps_web_eslint_config",
+      "toNode": "n_ref_eslint_config_next",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_next_config_ref_next",
+      "fromNode": "n_apps_web_next_config",
+      "toNode": "n_ref_next",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_next_config_apps_web_next_config_nextconfig",
+      "fromNode": "n_apps_web_next_config",
+      "toNode": "n_apps_web_next_config_nextconfig",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_next",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_next",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_react",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_react_dom",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_types_node",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_types_node",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_types_react",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_types_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_types_react_dom",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_types_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_eslint",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_eslint",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_eslint_config_next",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_eslint_config_next",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_ref_typescript",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_ref_typescript",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_dependencies",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_dependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_devdependencies",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_devdependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_name",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_name",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_engines",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_engines",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_version",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_version",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_private",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_private",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_apps_web_package_scripts",
+      "fromNode": "n_apps_web_package",
+      "toNode": "n_apps_web_package_scripts",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_dependencies_apps_web_package_dependencies_next",
+      "fromNode": "n_apps_web_package_dependencies",
+      "toNode": "n_apps_web_package_dependencies_next",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_dependencies_apps_web_package_dependencies_react",
+      "fromNode": "n_apps_web_package_dependencies",
+      "toNode": "n_apps_web_package_dependencies_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_dependencies_apps_web_package_dependencies_react_dom",
+      "fromNode": "n_apps_web_package_dependencies",
+      "toNode": "n_apps_web_package_dependencies_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_types_node",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_types_node",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_types_react",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_types_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_types_react_dom",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_types_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_eslint",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_eslint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_eslint_config_next",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_eslint_config_next",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_devdependencies_apps_web_package_devdependencies_typescript",
+      "fromNode": "n_apps_web_package_devdependencies",
+      "toNode": "n_apps_web_package_devdependencies_typescript",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_engines_apps_web_package_engines_node",
+      "fromNode": "n_apps_web_package_engines",
+      "toNode": "n_apps_web_package_engines_node",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_scripts_apps_web_package_scripts_typecheck",
+      "fromNode": "n_apps_web_package_scripts",
+      "toNode": "n_apps_web_package_scripts_typecheck",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_scripts_apps_web_package_scripts_dev",
+      "fromNode": "n_apps_web_package_scripts",
+      "toNode": "n_apps_web_package_scripts_dev",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_scripts_apps_web_package_scripts_build",
+      "fromNode": "n_apps_web_package_scripts",
+      "toNode": "n_apps_web_package_scripts_build",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_scripts_apps_web_package_scripts_start",
+      "fromNode": "n_apps_web_package_scripts",
+      "toNode": "n_apps_web_package_scripts_start",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_package_scripts_apps_web_package_scripts_lint",
+      "fromNode": "n_apps_web_package_scripts",
+      "toNode": "n_apps_web_package_scripts_lint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_app_page_apps_web_components_editor_prototype",
+      "fromNode": "n_apps_web_app_page",
+      "toNode": "n_apps_web_components_editor_prototype",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_ref_react",
+      "fromNode": "n_apps_web_components_editor_prototype",
+      "toNode": "n_ref_react",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_apps_web_components_editor_prototype_steps",
+      "fromNode": "n_apps_web_components_editor_prototype",
+      "toNode": "n_apps_web_components_editor_prototype_steps",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_components_editor_prototype_apps_web_components_editor_prototype_initial_items",
+      "fromNode": "n_apps_web_components_editor_prototype",
+      "toNode": "n_apps_web_components_editor_prototype_initial_items",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_catalogitemid_type_contracts_spatial_model_v1_schema_properties_catalogitemid",
+      "fromNode": "n_contracts_spatial_model_v1_schema_catalogitemid_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_catalogitemid",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_defs_object",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_object",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_catalogitemid",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_catalogitemid",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_position",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_position",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_size",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_size",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_object_properties_contracts_spatial_model_v1_schema_properties_rotation",
+      "fromNode": "n_contracts_spatial_model_v1_schema_object_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_rotation",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_position_ref_contracts_spatial_model_v1_schema_properties_position",
+      "fromNode": "n_contracts_spatial_model_v1_schema_position_ref",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_position",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_rotation_contracts_spatial_model_v1_schema_rotation_default",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_rotation",
+      "toNode": "n_contracts_spatial_model_v1_schema_rotation_default",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_rotation_contracts_spatial_model_v1_schema_rotation_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_rotation",
+      "toNode": "n_contracts_spatial_model_v1_schema_rotation_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_size_contracts_spatial_model_v1_schema_size_ref",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_size",
+      "toNode": "n_contracts_spatial_model_v1_schema_size_ref",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_additionalproperties_contracts_spatial_model_v1_schema_defs_constraint",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_additionalproperties",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_properties_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_properties_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_properties_entityids",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entityids",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_properties_severity",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_severity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_properties_parameters",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_parameters",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_properties_contracts_spatial_model_v1_schema_defs_constraint",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_required_contracts_spatial_model_v1_schema_defs_constraint",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_required",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraint_type_contracts_spatial_model_v1_schema_defs_constraint",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraint_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_constraint_contracts_spatial_model_v1_schema_defs",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_constraint",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_parameters_additionalproperties_contracts_spatial_model_v1_schema_properties_parameters",
+      "fromNode": "n_contracts_spatial_model_v1_schema_parameters_additionalproperties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_parameters",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_parameters_type_contracts_spatial_model_v1_schema_properties_parameters",
+      "fromNode": "n_contracts_spatial_model_v1_schema_parameters_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_parameters",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_severity_contracts_spatial_model_v1_schema_severity_enum",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_severity",
+      "toNode": "n_contracts_spatial_model_v1_schema_severity_enum",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_level_contracts_spatial_model_v1_schema_defs",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_level",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_level_contracts_spatial_model_v1_schema_level_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_level",
+      "toNode": "n_contracts_spatial_model_v1_schema_level_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_level_contracts_spatial_model_v1_schema_level_additionalproperties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_level",
+      "toNode": "n_contracts_spatial_model_v1_schema_level_additionalproperties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_level_contracts_spatial_model_v1_schema_level_required",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_level",
+      "toNode": "n_contracts_spatial_model_v1_schema_level_required",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_level_contracts_spatial_model_v1_schema_level_properties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_level",
+      "toNode": "n_contracts_spatial_model_v1_schema_level_properties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_elevation_type_contracts_spatial_model_v1_schema_properties_elevation",
+      "fromNode": "n_contracts_spatial_model_v1_schema_elevation_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_elevation",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entities_items_contracts_spatial_model_v1_schema_items_ref",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entities_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_items_ref",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entities_items_contracts_spatial_model_v1_schema_properties_entities",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entities_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entities",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entities_type_contracts_spatial_model_v1_schema_properties_entities",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entities_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entities",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_level_properties_contracts_spatial_model_v1_schema_properties_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema_level_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_level_properties_contracts_spatial_model_v1_schema_properties_elevation",
+      "fromNode": "n_contracts_spatial_model_v1_schema_level_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_elevation",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_level_properties_contracts_spatial_model_v1_schema_properties_entities",
+      "fromNode": "n_contracts_spatial_model_v1_schema_level_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entities",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_contracts_spatial_model_v1_schema",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs",
+      "toNode": "n_contracts_spatial_model_v1_schema",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_contracts_spatial_model_v1_schema_defs_point",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_point",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_contracts_spatial_model_v1_schema_defs_entity",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_entity",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_contracts_spatial_model_v1_schema_defs_wall",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_contracts_spatial_model_v1_schema_defs_object",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_object",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_entity_contracts_spatial_model_v1_schema_entity_oneof",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_entity",
+      "toNode": "n_contracts_spatial_model_v1_schema_entity_oneof",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_point_contracts_spatial_model_v1_schema_point_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_point",
+      "toNode": "n_contracts_spatial_model_v1_schema_point_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_point_contracts_spatial_model_v1_schema_point_prefixitems",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_point",
+      "toNode": "n_contracts_spatial_model_v1_schema_point_prefixitems",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_point_contracts_spatial_model_v1_schema_point_items",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_point",
+      "toNode": "n_contracts_spatial_model_v1_schema_point_items",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_id_minlength_contracts_spatial_model_v1_schema_properties_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema_id_minlength",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_id_type_contracts_spatial_model_v1_schema_properties_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema_id_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_id_contracts_spatial_model_v1_schema_wall_properties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_id",
+      "toNode": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_thickness_contracts_spatial_model_v1_schema_thickness_exclusiveminimum",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_thickness",
+      "toNode": "n_contracts_spatial_model_v1_schema_thickness_exclusiveminimum",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_thickness_contracts_spatial_model_v1_schema_thickness_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_thickness",
+      "toNode": "n_contracts_spatial_model_v1_schema_thickness_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_thickness_contracts_spatial_model_v1_schema_wall_properties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_thickness",
+      "toNode": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_wall_properties_contracts_spatial_model_v1_schema_defs_wall",
+      "fromNode": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_wall_properties_contracts_spatial_model_v1_schema_properties_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_wall_properties_contracts_spatial_model_v1_schema_properties_path",
+      "fromNode": "n_contracts_spatial_model_v1_schema_wall_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_schema",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_schema",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_id",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_id",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_title",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_title",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_additionalproperties",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_additionalproperties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_required",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_required",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_contracts_spatial_model_v1_schema_properties",
+      "fromNode": "n_contracts_spatial_model_v1_schema",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraints_items_contracts_spatial_model_v1_schema_items_ref",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraints_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_items_ref",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraints_items_contracts_spatial_model_v1_schema_properties_constraints",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraints_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_constraints",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_constraints_type_contracts_spatial_model_v1_schema_properties_constraints",
+      "fromNode": "n_contracts_spatial_model_v1_schema_constraints_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_constraints",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_items_ref_contracts_spatial_model_v1_schema_levels_items",
+      "fromNode": "n_contracts_spatial_model_v1_schema_items_ref",
+      "toNode": "n_contracts_spatial_model_v1_schema_levels_items",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_items_ref_contracts_spatial_model_v1_schema_path_items",
+      "fromNode": "n_contracts_spatial_model_v1_schema_items_ref",
+      "toNode": "n_contracts_spatial_model_v1_schema_path_items",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_levels_items_contracts_spatial_model_v1_schema_properties_levels",
+      "fromNode": "n_contracts_spatial_model_v1_schema_levels_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_levels",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_levels_minitems_contracts_spatial_model_v1_schema_properties_levels",
+      "fromNode": "n_contracts_spatial_model_v1_schema_levels_minitems",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_levels",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_levels_type_contracts_spatial_model_v1_schema_properties_levels",
+      "fromNode": "n_contracts_spatial_model_v1_schema_levels_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_levels",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_metadata_additionalproperties_contracts_spatial_model_v1_schema_properties_metadata",
+      "fromNode": "n_contracts_spatial_model_v1_schema_metadata_additionalproperties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_metadata_properties_contracts_spatial_model_v1_schema_properties_sourceversionid",
+      "fromNode": "n_contracts_spatial_model_v1_schema_metadata_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_sourceversionid",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_metadata_properties_contracts_spatial_model_v1_schema_properties_metadata",
+      "fromNode": "n_contracts_spatial_model_v1_schema_metadata_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_metadata_required_contracts_spatial_model_v1_schema_properties_metadata",
+      "fromNode": "n_contracts_spatial_model_v1_schema_metadata_required",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_metadata_type_contracts_spatial_model_v1_schema_properties_metadata",
+      "fromNode": "n_contracts_spatial_model_v1_schema_metadata_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_origin_ref_contracts_spatial_model_v1_schema_properties_origin",
+      "fromNode": "n_contracts_spatial_model_v1_schema_origin_ref",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_origin",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_units",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_units",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_origin",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_origin",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_levels",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_levels",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_constraints",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_constraints",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_metadata",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_metadata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_contracts_spatial_model_v1_schema_properties_schemaversion",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_schemaversion",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_schemaversion_contracts_spatial_model_v1_schema_schemaversion_const",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_schemaversion",
+      "toNode": "n_contracts_spatial_model_v1_schema_schemaversion_const",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_sourceversionid_contracts_spatial_model_v1_schema_sourceversionid_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_sourceversionid",
+      "toNode": "n_contracts_spatial_model_v1_schema_sourceversionid_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_units_contracts_spatial_model_v1_schema_units_const",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_units",
+      "toNode": "n_contracts_spatial_model_v1_schema_units_const",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_validate_spatial_contract_json",
+      "fromNode": "n_scripts_validate_spatial_contract",
+      "toNode": "n_json",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_validate_spatial_contract_pathlib",
+      "fromNode": "n_scripts_validate_spatial_contract",
+      "toNode": "n_pathlib",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_validate_spatial_contract_jsonschema",
+      "fromNode": "n_scripts_validate_spatial_contract",
+      "toNode": "n_jsonschema",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_object_contracts_spatial_model_v1_schema_object_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_object",
+      "toNode": "n_contracts_spatial_model_v1_schema_object_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_object_contracts_spatial_model_v1_schema_object_additionalproperties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_object",
+      "toNode": "n_contracts_spatial_model_v1_schema_object_additionalproperties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_object_contracts_spatial_model_v1_schema_object_required",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_object",
+      "toNode": "n_contracts_spatial_model_v1_schema_object_required",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_wall_contracts_spatial_model_v1_schema_wall_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "toNode": "n_contracts_spatial_model_v1_schema_wall_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_wall_contracts_spatial_model_v1_schema_wall_additionalproperties",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "toNode": "n_contracts_spatial_model_v1_schema_wall_additionalproperties",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_defs_wall_contracts_spatial_model_v1_schema_wall_required",
+      "fromNode": "n_contracts_spatial_model_v1_schema_defs_wall",
+      "toNode": "n_contracts_spatial_model_v1_schema_wall_required",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entityids_items_contracts_spatial_model_v1_schema_items_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entityids_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_items_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entityids_items_contracts_spatial_model_v1_schema_properties_entityids",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entityids_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entityids",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_entityids_type_contracts_spatial_model_v1_schema_properties_entityids",
+      "fromNode": "n_contracts_spatial_model_v1_schema_entityids_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_entityids",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_path_items_contracts_spatial_model_v1_schema_properties_path",
+      "fromNode": "n_contracts_spatial_model_v1_schema_path_items",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_path_minitems_contracts_spatial_model_v1_schema_properties_path",
+      "fromNode": "n_contracts_spatial_model_v1_schema_path_minitems",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_path_type_contracts_spatial_model_v1_schema_properties_path",
+      "fromNode": "n_contracts_spatial_model_v1_schema_path_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_properties_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_type_contracts_spatial_model_v1_schema_type_const",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_type_const",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_type_contracts_spatial_model_v1_schema_type_minlength",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_type_minlength",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_contracts_spatial_model_v1_schema_properties_type_contracts_spatial_model_v1_schema_type_type",
+      "fromNode": "n_contracts_spatial_model_v1_schema_properties_type",
+      "toNode": "n_contracts_spatial_model_v1_schema_type_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_router_fastapi",
+      "fromNode": "n_apps_api_app_api_router",
+      "toNode": "n_fastapi",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_router_apps_api_app_api_routes_init",
+      "fromNode": "n_apps_api_app_api_router",
+      "toNode": "n_apps_api_app_api_routes_init",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_router_apps_api_app_main",
+      "fromNode": "n_apps_api_app_api_router",
+      "toNode": "n_apps_api_app_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_router_apps_api_app_api_routes_system",
+      "fromNode": "n_apps_api_app_api_router",
+      "toNode": "n_apps_api_app_api_routes_system",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_typing",
+      "fromNode": "n_apps_api_app_api_routes_system",
+      "toNode": "n_typing",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_fastapi",
+      "fromNode": "n_apps_api_app_api_routes_system",
+      "toNode": "n_fastapi",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_pydantic",
+      "fromNode": "n_apps_api_app_api_routes_system",
+      "toNode": "n_pydantic",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_api_routes_system_apps_api_app_config",
+      "fromNode": "n_apps_api_app_api_routes_system",
+      "toNode": "n_apps_api_app_config",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_functools",
+      "fromNode": "n_apps_api_app_config",
+      "toNode": "n_functools",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_pydantic",
+      "fromNode": "n_apps_api_app_config",
+      "toNode": "n_pydantic",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_pydantic_settings",
+      "fromNode": "n_apps_api_app_config",
+      "toNode": "n_pydantic_settings",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_config_apps_api_app_main",
+      "fromNode": "n_apps_api_app_config",
+      "toNode": "n_apps_api_app_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_main_fastapi",
+      "fromNode": "n_apps_api_app_main",
+      "toNode": "n_fastapi",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_main_fastapi_middleware_cors",
+      "fromNode": "n_apps_api_app_main",
+      "toNode": "n_fastapi_middleware_cors",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_main_apps_api_tests_test_system",
+      "fromNode": "n_apps_api_app_main",
+      "toNode": "n_apps_api_tests_test_system",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_tests_test_system_fastapi_testclient",
+      "fromNode": "n_apps_api_tests_test_system",
+      "toNode": "n_fastapi_testclient",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_api_app_init_apps_api_app_init_rationale_1",
+      "fromNode": "n_apps_api_app_init",
+      "toNode": "n_apps_api_app_init_rationale_1",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_apps_web_tsconfig_compileroptions",
+      "fromNode": "n_apps_web_tsconfig",
+      "toNode": "n_apps_web_tsconfig_compileroptions",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_apps_web_tsconfig_include",
+      "fromNode": "n_apps_web_tsconfig",
+      "toNode": "n_apps_web_tsconfig_include",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_apps_web_tsconfig_exclude",
+      "fromNode": "n_apps_web_tsconfig",
+      "toNode": "n_apps_web_tsconfig_exclude",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_skiplibcheck",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_skiplibcheck",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_strict",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_strict",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_noemit",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_noemit",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_esmoduleinterop",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_esmoduleinterop",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_module",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_module",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_moduleresolution",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_moduleresolution",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_resolvejsonmodule",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_resolvejsonmodule",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_isolatedmodules",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_isolatedmodules",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_jsx",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_jsx",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_apps_web_tsconfig_compileroptions_apps_web_tsconfig_compileroptions_incremental",
+      "fromNode": "n_apps_web_tsconfig_compileroptions",
+      "toNode": "n_apps_web_tsconfig_compileroptions_incremental",
+      "label": "contains [EXTRACTED]"
+    }
+  ]
+}

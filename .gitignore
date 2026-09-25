@@ -17,3 +17,7 @@ apps/web/next-env.d.ts
 .idea/
 .vscode/
 storage/
+/.obsidian/
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/.graphify_root
