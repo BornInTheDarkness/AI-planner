@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "API Health and Settings"
+community: "system.py / config.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/API_Health_and_Settings
+  - community/systempy_/_configpy
 ---
 
 # functools
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[config.py]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/API_Health_and_Settings
+#graphify/concept #graphify/EXTRACTED #community/systempy_/_configpy

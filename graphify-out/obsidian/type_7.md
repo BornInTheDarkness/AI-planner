@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Entity Point Definitions"
-location: "L32"
+community: "properties / rotation"
+location: "L80"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Entity_Point_Definitions
+  - community/properties_/_rotation
 ---
 
 # type
 
 ## Connections
-- [[point]] - `contains` [EXTRACTED]
+- [[rotation]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Entity_Point_Definitions
+#graphify/code #graphify/EXTRACTED #community/properties_/_rotation

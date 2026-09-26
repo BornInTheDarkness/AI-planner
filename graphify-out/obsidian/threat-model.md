@@ -1,11 +1,11 @@
 ---
 source_file: "docs/security/threat-model.md"
 type: "document"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # threat-model.md
@@ -21,4 +21,4 @@ tags:
 - [[STRIDE threat model]] - `references` [EXTRACTED]
 - [[Unsafe AI result controls]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Services_and_Security
+#graphify/document #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

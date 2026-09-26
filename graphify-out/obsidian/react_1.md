@@ -1,18 +1,18 @@
 ---
 source_file: "apps/web/package.json"
 type: "concept"
-community: "Editor Prototype Flow"
+community: "design-surface.tsx / editor/page.tsx"
 location: "L14"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Editor_Prototype_Flow
+  - community/design-surfacetsx_/_editor/pagetsx
 ---
 
 # react
 
 ## Connections
-- [[editor-prototype.tsx]] - `imports_from` [EXTRACTED]
+- [[design-surface.tsx]] - `imports_from` [EXTRACTED]
 - [[webpackage.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Editor_Prototype_Flow
+#graphify/concept #graphify/EXTRACTED #community/design-surfacetsx_/_editor/pagetsx

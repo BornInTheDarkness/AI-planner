@@ -1,12 +1,12 @@
 ---
 source_file: "scripts/validate_spatial_contract.py"
 type: "code"
-community: "Spatial Contract Validator"
+community: "validate_spatial_contract.py / json"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Spatial_Contract_Validator
+  - community/validate_spatial_contractpy_/_json
 ---
 
 # validate_spatial_contract.py
@@ -17,4 +17,4 @@ tags:
 - [[main()]] - `contains` [EXTRACTED]
 - [[pathlib]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Spatial_Contract_Validator
+#graphify/code #graphify/EXTRACTED #community/validate_spatial_contractpy_/_json

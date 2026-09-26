@@ -1,11 +1,11 @@
 ---
 source_file: "apps/web/CLAUDE.md"
 type: "document"
-community: "Web Agent Guidance"
+community: "AGENTS.md / Reference to AGENTS.md"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Web_Agent_Guidance
+  - community/AGENTSmd_/_Reference_to_AGENTSmd
 ---
 
 # CLAUDE.md
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Reference to AGENTS]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Web_Agent_Guidance
+#graphify/document #graphify/EXTRACTED #community/AGENTSmd_/_Reference_to_AGENTSmd

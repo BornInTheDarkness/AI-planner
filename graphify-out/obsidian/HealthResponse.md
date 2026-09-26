@@ -1,12 +1,12 @@
 ---
 source_file: "apps/api/app/api/routes/system.py"
 type: "code"
-community: "API Health and Settings"
+community: "system.py / config.py"
 location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/API_Health_and_Settings
+  - community/systempy_/_configpy
 ---
 
 # HealthResponse
@@ -16,4 +16,4 @@ tags:
 - [[health()]] - `calls` [EXTRACTED]
 - [[system.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/API_Health_and_Settings
+#graphify/code #graphify/EXTRACTED #community/systempy_/_configpy

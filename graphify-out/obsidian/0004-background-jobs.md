@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0004-background-jobs.md"
 type: "document"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # 0004-background-jobs.md
@@ -18,4 +18,4 @@ tags:
 - [[Six proposed architecture decisions]] - `references` [EXTRACTED]
 - [[Worker lease and heartbeat]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/document #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

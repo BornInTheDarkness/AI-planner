@@ -1,12 +1,12 @@
 ---
 source_file: "docs/research/evidence-map.md"
 type: "concept"
-community: "Interview I-01"
+community: "Проверка источника размеров и геометрии 12/12 proxy / Обезличенная заметка интервью I-09"
 location: "| Наблюдение"
 tags:
   - graphify/concept
   - graphify/INFERRED
-  - community/Interview_I-01
+  - community/Проверка_источника_размеров_и_геометрии_12/12_proxy_/_Обезличенная_заметка_интервью_I-09
 ---
 
 # Проверка источника размеров и геометрии 12/12 proxy
@@ -27,4 +27,4 @@ tags:
 - [[Семейные требования вызывают итерации планировки]] - `conceptually_related_to` [INFERRED]
 - [[Условные размеры мебели конфликтуют с кухней и электрикой]] - `conceptually_related_to` [INFERRED]
 
-#graphify/concept #graphify/INFERRED #community/Interview_I-01
+#graphify/concept #graphify/INFERRED #community/Проверка_источника_размеров_и_геометрии_12/12_proxy_/_Обезличенная_заметка_интервью_I-09

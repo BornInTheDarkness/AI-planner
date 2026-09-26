@@ -1,19 +1,19 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Entity Reference Schema"
+community: "entityIds / items"
 location: "L90"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Entity_Reference_Schema
+  - community/entityIds_/_items
 ---
 
 # entityIds
 
 ## Connections
-- [[items_4]] - `contains` [EXTRACTED]
-- [[properties_1]] - `contains` [EXTRACTED]
-- [[type_17]] - `contains` [EXTRACTED]
+- [[items_5]] - `contains` [EXTRACTED]
+- [[properties_2]] - `contains` [EXTRACTED]
+- [[type_20]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Entity_Reference_Schema
+#graphify/code #graphify/EXTRACTED #community/entityIds_/_items

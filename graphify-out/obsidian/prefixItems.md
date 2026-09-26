@@ -1,12 +1,12 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Entity Point Definitions"
+community: "$defs / wall"
 location: "L33"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Entity_Point_Definitions
+  - community/defs_/_wall
 ---
 
 # prefixItems
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[point]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Entity_Point_Definitions
+#graphify/code #graphify/EXTRACTED #community/defs_/_wall

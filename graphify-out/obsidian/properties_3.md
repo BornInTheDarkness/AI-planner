@@ -1,21 +1,20 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Wall Geometry Schema"
-location: "L59"
+community: "id / level"
+location: "L40"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Wall_Geometry_Schema
+  - community/id_/_level
 ---
 
 # properties
 
 ## Connections
+- [[elevation]] - `contains` [EXTRACTED]
+- [[entities]] - `contains` [EXTRACTED]
 - [[id]] - `contains` [EXTRACTED]
-- [[path]] - `contains` [EXTRACTED]
-- [[thickness]] - `contains` [EXTRACTED]
-- [[type_20]] - `contains` [EXTRACTED]
-- [[wall]] - `contains` [EXTRACTED]
+- [[level]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Wall_Geometry_Schema
+#graphify/code #graphify/EXTRACTED #community/id_/_level

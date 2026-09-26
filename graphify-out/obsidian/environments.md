@@ -1,11 +1,11 @@
 ---
 source_file: "docs/operations/environments.md"
 type: "document"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # environments.md
@@ -17,4 +17,4 @@ tags:
 - [[Local, preview, staging and production environments]] - `references` [EXTRACTED]
 - [[Production data isolation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/document #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

@@ -1,17 +1,22 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Constraint Schema Fields"
-location: "L92"
+community: "type / properties"
+location: "L61"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Constraint_Schema_Fields
+  - community/type_/_properties
 ---
 
 # type
 
 ## Connections
-- [[parameters]] - `contains` [EXTRACTED]
+- [[const]] - `contains` [EXTRACTED]
+- [[minLength]] - `contains` [EXTRACTED]
+- [[properties_2]] - `contains` [EXTRACTED]
+- [[properties_1]] - `contains` [EXTRACTED]
+- [[properties]] - `contains` [EXTRACTED]
+- [[type_5]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Constraint_Schema_Fields
+#graphify/code #graphify/EXTRACTED #community/type_/_properties

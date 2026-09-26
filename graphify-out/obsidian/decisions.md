@@ -1,11 +1,11 @@
 ---
 source_file: "docs/decisions.md"
 type: "document"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # decisions.md
@@ -16,4 +16,4 @@ tags:
 - [[Six proposed architecture decisions]] - `references` [EXTRACTED]
 - [[Sources for cross-area relationship verification]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/document #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

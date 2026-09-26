@@ -1,11 +1,11 @@
 ---
 source_file: "docs/security/threat-model.md"
 type: "concept"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # IDOR and object authorization
@@ -14,4 +14,4 @@ tags:
 - [[STRIDE threat model]] - `references` [EXTRACTED]
 - [[threat-model]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Services_and_Security
+#graphify/concept #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

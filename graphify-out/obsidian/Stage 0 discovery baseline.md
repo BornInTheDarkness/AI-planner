@@ -1,11 +1,11 @@
 ---
 source_file: "README.md"
 type: "concept"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # Stage 0 discovery baseline
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[README]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/concept #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

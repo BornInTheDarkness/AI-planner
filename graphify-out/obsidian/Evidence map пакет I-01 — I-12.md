@@ -1,12 +1,12 @@
 ---
 source_file: "docs/research/evidence-map.md"
 type: "document"
-community: "Research Hypotheses and Synthesis"
+community: "Evidence map: пакет I-01 — I-12 / Реестр гипотез и допущений"
 location: "line 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Research_Hypotheses_and_Synthesis
+  - community/Evidence_map_пакет_I-01__I-12_/_Реестр_гипотез_и_допущений
 ---
 
 # Evidence map: пакет I-01 — I-12
@@ -33,4 +33,4 @@ tags:
 - [[Синтез после каждых трёх интервью]] - `references` [EXTRACTED]
 - [[Частоты proxy-набора не оценивают рынок]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Research_Hypotheses_and_Synthesis
+#graphify/document #graphify/EXTRACTED #community/Evidence_map_пакет_I-01__I-12_/_Реестр_гипотез_и_допущений

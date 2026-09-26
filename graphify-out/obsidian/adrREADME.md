@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/README.md"
 type: "document"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # adr/README.md
@@ -14,4 +14,4 @@ tags:
 - [[Documentation index_1]] - `references` [EXTRACTED]
 - [[Proposed ADR registry]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/document #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

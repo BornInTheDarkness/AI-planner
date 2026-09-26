@@ -1,11 +1,11 @@
 ---
 source_file: "apps/api/app/modules/README.md"
 type: "document"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # modules/README.md
@@ -14,4 +14,4 @@ tags:
 - [[API domain modules]] - `references` [EXTRACTED]
 - [[Module data ownership]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/document #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

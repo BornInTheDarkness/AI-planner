@@ -1,11 +1,11 @@
 ---
 source_file: "docs/product-requirements.md"
 type: "document"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # product-requirements.md
@@ -26,4 +26,4 @@ tags:
 - [[Trace spatial contract changes to requirements and canonical-model modules]] - `references` [EXTRACTED]
 - [[Versioned export]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/document #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

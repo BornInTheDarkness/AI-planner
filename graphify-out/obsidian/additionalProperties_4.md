@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Spatial JSON Schema"
-location: "L23"
+community: "v1.schema.json / properties"
+location: "L6"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Spatial_JSON_Schema
+  - community/v1schemajson_/_properties
 ---
 
 # additionalProperties
 
 ## Connections
-- [[metadata_1]] - `contains` [EXTRACTED]
+- [[v1.schema.json]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Spatial_JSON_Schema
+#graphify/code #graphify/EXTRACTED #community/v1schemajson_/_properties

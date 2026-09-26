@@ -1,11 +1,11 @@
 ---
 source_file: "docs/operations/environments.md"
 type: "rationale"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # Production data isolation
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[environments]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/rationale #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

@@ -1,24 +1,24 @@
 ---
 source_file: "package.json"
 type: "code"
-community: "Web Package Scripts"
+community: "package.json / scripts"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Package_Scripts
+  - community/packagejson_/_scripts
 ---
 
 # package.json
 
 ## Connections
-- [[devDependencies_1]] - `contains` [EXTRACTED]
-- [[engines_1]] - `contains` [EXTRACTED]
-- [[name_1]] - `contains` [EXTRACTED]
+- [[devDependencies]] - `contains` [EXTRACTED]
+- [[engines]] - `contains` [EXTRACTED]
+- [[name]] - `contains` [EXTRACTED]
 - [[prettier_1]] - `imports` [EXTRACTED]
-- [[private_1]] - `contains` [EXTRACTED]
-- [[scripts_1]] - `contains` [EXTRACTED]
-- [[version_1]] - `contains` [EXTRACTED]
+- [[private]] - `contains` [EXTRACTED]
+- [[scripts]] - `contains` [EXTRACTED]
+- [[version]] - `contains` [EXTRACTED]
 - [[workspaces]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Package_Scripts
+#graphify/code #graphify/EXTRACTED #community/packagejson_/_scripts

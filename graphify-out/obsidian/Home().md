@@ -1,17 +1,17 @@
 ---
 source_file: "apps/web/app/page.tsx"
 type: "code"
-community: "Editor Prototype Flow"
-location: "L3"
+community: "design-surface.tsx / editor/page.tsx"
+location: "L4"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Editor_Prototype_Flow
+  - community/design-surfacetsx_/_editor/pagetsx
 ---
 
 # Home()
 
 ## Connections
-- [[page.tsx]] - `contains` [EXTRACTED]
+- [[apppage.tsx]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Editor_Prototype_Flow
+#graphify/code #graphify/EXTRACTED #community/design-surfacetsx_/_editor/pagetsx

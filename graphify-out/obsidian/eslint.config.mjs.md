@@ -1,12 +1,12 @@
 ---
 source_file: "apps/web/eslint.config.mjs"
 type: "code"
-community: "Web App Configuration"
+community: "web/package.json / devDependencies"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/web/packagejson_/_devDependencies
 ---
 
 # eslint.config.mjs
@@ -15,4 +15,4 @@ tags:
 - [[eslint_1]] - `imports_from` [EXTRACTED]
 - [[eslint-config-next_1]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/code #graphify/EXTRACTED #community/web/packagejson_/_devDependencies

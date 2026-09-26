@@ -1,11 +1,11 @@
 ---
 source_file: "docs/architecture.md"
 type: "concept"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # Canonical spatial schema
@@ -16,5 +16,6 @@ tags:
 - [[Immutable version payloads]] - `references` [EXTRACTED]
 - [[Trace spatial contract changes to requirements and canonical-model modules]] - `references` [EXTRACTED]
 - [[architecture]] - `references` [EXTRACTED]
+- [[Каноническая метрическая и версионируемая геометрия]] - `semantically_similar_to` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/concept #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

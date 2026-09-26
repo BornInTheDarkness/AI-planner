@@ -1,12 +1,12 @@
 ---
 source_file: "apps/web/package.json"
 type: "code"
-community: "Web App Configuration"
+community: "web/package.json / devDependencies"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/web/packagejson_/_devDependencies
 ---
 
 # web/package.json
@@ -16,17 +16,17 @@ tags:
 - [[@typesreact_1]] - `imports` [EXTRACTED]
 - [[@typesreact-dom_1]] - `imports` [EXTRACTED]
 - [[dependencies]] - `contains` [EXTRACTED]
-- [[devDependencies]] - `contains` [EXTRACTED]
-- [[engines]] - `contains` [EXTRACTED]
+- [[devDependencies_1]] - `contains` [EXTRACTED]
+- [[engines_1]] - `contains` [EXTRACTED]
 - [[eslint_1]] - `imports` [EXTRACTED]
 - [[eslint-config-next_1]] - `imports` [EXTRACTED]
-- [[name]] - `contains` [EXTRACTED]
+- [[name_1]] - `contains` [EXTRACTED]
 - [[next_1]] - `imports` [EXTRACTED]
-- [[private]] - `contains` [EXTRACTED]
+- [[private_1]] - `contains` [EXTRACTED]
 - [[react_1]] - `imports` [EXTRACTED]
 - [[react-dom_1]] - `imports` [EXTRACTED]
-- [[scripts]] - `contains` [EXTRACTED]
+- [[scripts_1]] - `contains` [EXTRACTED]
 - [[typescript_1]] - `imports` [EXTRACTED]
-- [[version]] - `contains` [EXTRACTED]
+- [[version_1]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/code #graphify/EXTRACTED #community/web/packagejson_/_devDependencies

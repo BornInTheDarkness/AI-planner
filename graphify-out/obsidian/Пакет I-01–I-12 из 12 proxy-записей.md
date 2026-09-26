@@ -1,12 +1,12 @@
 ---
 source_file: "docs/research/interviews/README.md"
 type: "concept"
-community: "Renovation Evidence Limits"
+community: "Пакет I-01–I-12 из 12 proxy-записей / Обезличенная заметка интервью I-01"
 location: "## Статус"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Renovation_Evidence_Limits
+  - community/Пакет_I-01I-12_из_12_proxy-записей_/_Обезличенная_заметка_интервью_I-01
 ---
 
 # Пакет I-01–I-12 из 12 proxy-записей
@@ -28,4 +28,4 @@ tags:
 - [[Пакет интервью I-01 — I-12]] - `references` [EXTRACTED]
 - [[Синтез рабочего пакета интервью от 17.09.2026]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Renovation_Evidence_Limits
+#graphify/concept #graphify/EXTRACTED #community/Пакет_I-01I-12_из_12_proxy-записей_/_Обезличенная_заметка_интервью_I-01

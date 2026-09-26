@@ -1,12 +1,12 @@
 ---
 source_file: "package.json"
 type: "concept"
-community: "Web Package Scripts"
+community: "package.json / scripts"
 location: "L18"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Web_Package_Scripts
+  - community/packagejson_/_scripts
 ---
 
 # prettier
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[package.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Web_Package_Scripts
+#graphify/concept #graphify/EXTRACTED #community/packagejson_/_scripts

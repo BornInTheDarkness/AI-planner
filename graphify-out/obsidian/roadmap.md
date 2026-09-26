@@ -1,11 +1,11 @@
 ---
 source_file: "docs/roadmap.md"
 type: "document"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # roadmap.md
@@ -20,4 +20,4 @@ tags:
 - [[Stage 3 visualization and export]] - `references` [EXTRACTED]
 - [[Stage 4 closed beta]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/document #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

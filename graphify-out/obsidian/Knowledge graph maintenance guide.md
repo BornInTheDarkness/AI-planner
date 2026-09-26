@@ -1,12 +1,12 @@
 ---
 source_file: "docs/knowledge-graph.md"
 type: "document"
-community: "Graph Maintenance Workflow"
+community: "Project working memory / Knowledge graph maintenance guide"
 location: "docs/knowledge-graph.md:1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Graph_Maintenance_Workflow
+  - community/Project_working_memory_/_Knowledge_graph_maintenance_guide
 ---
 
 # Knowledge graph maintenance guide
@@ -24,4 +24,4 @@ tags:
 - [[Update and verify graph after every change]] - `references` [EXTRACTED]
 - [[Verify new nodes and sourced cross-area relationships]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Graph_Maintenance_Workflow
+#graphify/document #graphify/EXTRACTED #community/Project_working_memory_/_Knowledge_graph_maintenance_guide

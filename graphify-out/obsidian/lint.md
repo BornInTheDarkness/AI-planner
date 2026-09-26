@@ -1,12 +1,12 @@
 ---
-source_file: "apps/web/package.json"
+source_file: "package.json"
 type: "code"
-community: "Web App Configuration"
-location: "L9"
+community: "package.json / scripts"
+location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/packagejson_/_scripts
 ---
 
 # lint
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[scripts]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/code #graphify/EXTRACTED #community/packagejson_/_scripts

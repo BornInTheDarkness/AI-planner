@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "API Health and Settings"
+community: "system.py / config.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/API_Health_and_Settings
+  - community/systempy_/_configpy
 ---
 
 # get
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[health()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/API_Health_and_Settings
+#graphify/code #graphify/EXTRACTED #community/systempy_/_configpy

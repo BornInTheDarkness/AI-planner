@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Level Structure Schema"
-location: "L37"
+community: "properties / rotation"
+location: "L77"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Level_Structure_Schema
+  - community/properties_/_rotation
 ---
 
 # type
 
 ## Connections
-- [[level]] - `contains` [EXTRACTED]
+- [[catalogItemId]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Level_Structure_Schema
+#graphify/code #graphify/EXTRACTED #community/properties_/_rotation

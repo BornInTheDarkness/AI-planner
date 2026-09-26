@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Web App Configuration"
+community: "design-surface.tsx / editor/page.tsx"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/design-surfacetsx_/_editor/pagetsx
 ---
 
 # apps_web_app_styles
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[layout.tsx]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/concept #graphify/EXTRACTED #community/design-surfacetsx_/_editor/pagetsx

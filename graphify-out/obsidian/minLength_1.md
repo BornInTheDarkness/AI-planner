@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Identifier Schema Rules"
-location: "L89"
+community: "id / level"
+location: "L41"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Identifier_Schema_Rules
+  - community/id_/_level
 ---
 
 # minLength
 
 ## Connections
-- [[type_20]] - `contains` [EXTRACTED]
+- [[id]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Identifier_Schema_Rules
+#graphify/code #graphify/EXTRACTED #community/id_/_level

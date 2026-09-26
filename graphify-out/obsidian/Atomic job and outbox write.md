@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0004-background-jobs.md"
 type: "concept"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # Atomic job and outbox write
@@ -15,4 +15,4 @@ tags:
 - [[Generation job sequence]] - `references` [EXTRACTED]
 - [[Idempotent background jobs]] - `implements` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/concept #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

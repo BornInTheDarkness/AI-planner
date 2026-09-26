@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0003-persistence.md"
 type: "document"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # 0003-persistence.md
@@ -17,4 +17,4 @@ tags:
 - [[Six proposed architecture decisions]] - `references` [EXTRACTED]
 - [[Upload quarantine]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Services_and_Security
+#graphify/document #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

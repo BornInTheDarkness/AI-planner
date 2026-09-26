@@ -1,304 +1,283 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Architecture_and_Spatial_Contracts",
+      "query": "tag:#community/journeyjs_/_\u041f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435_\u043f\u043e_\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0435__\u0440\u0435\u0448\u0435\u043d\u0438\u0435_\u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Web_App_Configuration",
+      "query": "tag:#community/product-requirementsmd_/_architecturemd",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Spatial_JSON_Schema",
+      "query": "tag:#community/v1schemajson_/_properties",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Persistence_and_AI_Jobs",
+      "query": "tag:#community/web/packagejson_/_devDependencies",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/API_Health_and_Settings",
+      "query": "tag:#community/design-surfacetsx_/_editor/pagetsx",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Services_and_Security",
+      "query": "tag:#community/AI_Gateway_/_Proposed_ADR_registry",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Discovery_Scenarios_and_Personas",
+      "query": "tag:#community/systempy_/_configpy",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/TypeScript_Compiler_Settings",
+      "query": "tag:#community/Project_working_memory_/_Knowledge_graph_maintenance_guide",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Web_Package_Scripts",
+      "query": "tag:#community/threat-modelmd_/_STRIDE_threat_model",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Graph_Maintenance_Workflow",
+      "query": "tag:#community/compilerOptions_/_tsconfigjson",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Research_Hypotheses_and_Synthesis",
+      "query": "tag:#community/packagejson_/_scripts",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Editor_Prototype_Flow",
+      "query": "tag:#community/editorjs_/_render",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Catalog_Item_Schema",
+      "query": "tag:#community/defs_/_wall",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Constraint_Schema_Fields",
+      "query": "tag:#community/type_/_properties",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Level_Structure_Schema",
+      "query": "tag:#community/Evidence_map_\u043f\u0430\u043a\u0435\u0442_I-01__I-12_/_\u0420\u0435\u0435\u0441\u0442\u0440_\u0433\u0438\u043f\u043e\u0442\u0435\u0437_\u0438_\u0434\u043e\u043f\u0443\u0449\u0435\u043d\u0438\u0439",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Research_Provenance",
+      "query": "tag:#community/properties_/_rotation",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Entity_Point_Definitions",
+      "query": "tag:#community/properties_/_constraint",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Wall_Geometry_Schema",
+      "query": "tag:#community/id_/_level",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Renovation_Evidence_Limits",
+      "query": "tag:#community/\u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430_\u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430_\u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432_\u0438_\u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u0438_12/12_proxy_/_\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-09",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Continuous_Integration_Checks",
+      "query": "tag:#community/\u041f\u0430\u043a\u0435\u0442_I-01I-12_\u0438\u0437_12_proxy-\u0437\u0430\u043f\u0438\u0441\u0435\u0439_/_\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-01",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Spatial_Contract_Validator",
+      "query": "tag:#community/\u041c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0435_\u0437\u0430\u043f\u0438\u0441\u0438_\u043a\u0430\u043a_proxy_\u0434\u043b\u044f_\u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0445_\u0440\u0435\u0448\u0435\u043d\u0438\u0439_/_\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-12",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Web_Agent_Guidance",
+      "query": "tag:#community/CI_quality_gates_/_ciyml",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Schema_Object_Rules",
+      "query": "tag:#community/validate_spatial_contractpy_/_json",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Wall_Object_Schema",
+      "query": "tag:#community/AGENTSmd_/_Reference_to_AGENTSmd",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Entity_Reference_Schema",
+      "query": "tag:#community/object_/_additionalProperties",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Path_Item_Schema",
+      "query": "tag:#community/entityIds_/_items",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Identifier_Schema_Rules",
+      "query": "tag:#community/\u041c\u0435\u0442\u0440\u0438\u043a\u0438_\u0438_\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439_\u043a\u043e\u043d\u0442\u0440\u0430\u043a\u0442_/_\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435_\u0441\u043e\u0431\u044b\u0442\u0438\u044f_\u0431\u0435\u0437_\u043f\u043b\u0430\u043d\u043e\u0432_\u0438_\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445_\u0434\u0430\u043d\u043d\u044b\u0445",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Market_and_Provider_Choice",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-02_/_\u0423\u0441\u043b\u043e\u0432\u043d\u044b\u0435_\u0440\u0430\u0437\u043c\u0435\u0440\u044b_\u043c\u0435\u0431\u0435\u043b\u0438_\u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0443\u044e\u0442_\u0441_\u043a\u0443\u0445\u043d\u0435\u0439_\u0438_\u044d\u043b\u0435\u043a\u0442\u0440",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Product_Metrics",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-03_/_\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0435_\u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f_\u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442_\u0438\u0442\u0435\u0440\u0430\u0446\u0438\u0438_\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Interview_I-01",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-04_/_\u041c\u0430\u043b\u0430\u044f_\u043f\u043b\u043e\u0449\u0430\u0434\u044c_\u0442\u0440\u0435\u0431\u0443\u0435\u0442_\u0442\u043e\u0447\u043d\u044b\u0445_\u0440\u0430\u0437\u043c\u0435\u0440\u043e\u0432_\u0438_\u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Interview_I-02",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-05_/_\u0420\u0430\u0437\u0440\u043e\u0437\u043d\u0435\u043d\u043d\u044b\u0435_\u0440\u0435\u0448\u0435\u043d\u0438\u044f_\u0442\u0440\u0435\u0431\u0443\u044e\u0442_\u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0439_\u0432\u0435\u0440\u0441\u0438\u0438",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Interview_I-03",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-06_/_\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f_\u043f\u043e\u0434\u0440\u044f\u0434\u0447\u0438\u043a\u043e\u0432_\u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442_\u043f\u0435\u0440\u0435\u0434\u0435\u043b\u043a\u0438_\u0438_\u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Interview_I-04",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-07_/_\u0420\u0435\u0430\u043b\u044c\u043d\u0430\u044f_\u043c\u0435\u0431\u0435\u043b\u044c_\u0438_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438_\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f_\u043e\u0442\u043b\u0438\u0447\u0430\u044e\u0442\u0441\u044f_\u043e\u0442_\u043a\u043e\u043d",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Interview_I-05",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-08_/_\u0420\u043e\u0437\u0435\u0442\u043a\u0438_\u0438_\u043c\u0435\u0431\u0435\u043b\u044c_\u043d\u0435_\u0441\u043e\u0432\u043f\u0430\u043b\u0438_\u0441_\u0443\u0441\u043b\u043e\u0432\u043d\u044b\u043c_\u043f\u043b\u0430\u043d\u043e\u043c",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Interview_I-06",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-10_/_\u0414\u0438\u0437\u0430\u0439\u043d\u0435\u0440_\u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0438\u0442_\u0440\u0430\u0437\u043c\u044b\u0442\u044b\u0439_\u0431\u0440\u0438\u0444_\u0432_\u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e_\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Interview_I-07",
+      "query": "tag:#community/\u041e\u0431\u0435\u0437\u043b\u0438\u0447\u0435\u043d\u043d\u0430\u044f_\u0437\u0430\u043c\u0435\u0442\u043a\u0430_\u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e_I-11_/_\u041c\u0435\u043b\u043a\u0438\u0435_\u043f\u0440\u0430\u0432\u043a\u0438_\u0438_\u043d\u0435\u0432\u0435\u0440\u043d\u044b\u0439_\u0440\u0430\u0437\u043c\u0435\u0440_\u043d\u0430\u043a\u0430\u043f\u043b\u0438\u0432\u0430\u044e\u0442_\u0437\u0430\u0442\u0440\u0430\u0442\u044b",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Interview_I-08",
+      "query": "tag:#community/Weekly_dependency_updates_/_dependabotyml",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Interview_I-09",
+      "query": "tag:#community/app/__init__py_/_AI_Home_Modeler_API_package",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Interview_I-10",
+      "query": "tag:#community/api/__init__py",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Dependency_Updates",
+      "query": "tag:#community/ai-home-modeler-api",
       "color": {
         "a": 1,
         "rgb": 12234924
-      }
-    },
-    {
-      "query": "tag:#community/API_Package",
-      "color": {
-        "a": 1,
-        "rgb": 5142951
-      }
-    },
-    {
-      "query": "tag:#community/API_Module",
-      "color": {
-        "a": 1,
-        "rgb": 15896107
-      }
-    },
-    {
-      "query": "tag:#community/API_Project_Metadata",
-      "color": {
-        "a": 1,
-        "rgb": 14767961
       }
     }
   ]

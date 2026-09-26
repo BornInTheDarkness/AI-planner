@@ -1,12 +1,12 @@
 ---
 source_file: "knowledge.md"
 type: "document"
-community: "Graph Maintenance Workflow"
+community: "Project working memory / Knowledge graph maintenance guide"
 location: "knowledge.md:113"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Graph_Maintenance_Workflow
+  - community/Project_working_memory_/_Knowledge_graph_maintenance_guide
 ---
 
 # 2026-09-25 graph maintenance record
@@ -17,4 +17,4 @@ tags:
 - [[Project working memory]] - `references` [EXTRACTED]
 - [[Repository agent instructions]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Graph_Maintenance_Workflow
+#graphify/document #graphify/EXTRACTED #community/Project_working_memory_/_Knowledge_graph_maintenance_guide

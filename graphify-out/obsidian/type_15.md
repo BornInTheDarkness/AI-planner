@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Schema Object Rules"
-location: "L71"
+community: "v1.schema.json / properties"
+location: "L13"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Schema_Object_Rules
+  - community/v1schemajson_/_properties
 ---
 
 # type
 
 ## Connections
-- [[object]] - `contains` [EXTRACTED]
+- [[levels]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Schema_Object_Rules
+#graphify/code #graphify/EXTRACTED #community/v1schemajson_/_properties

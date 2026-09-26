@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0001-modular-monolith.md"
 type: "document"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # 0001-modular-monolith.md
@@ -16,4 +16,4 @@ tags:
 - [[Six proposed architecture decisions]] - `references` [EXTRACTED]
 - [[Transactional outbox]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/document #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

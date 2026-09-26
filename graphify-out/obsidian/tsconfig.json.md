@@ -1,12 +1,12 @@
 ---
 source_file: "apps/web/tsconfig.json"
 type: "code"
-community: "TypeScript Compiler Settings"
+community: "compilerOptions / tsconfig.json"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/TypeScript_Compiler_Settings
+  - community/compilerOptions_/_tsconfigjson
 ---
 
 # tsconfig.json
@@ -16,4 +16,4 @@ tags:
 - [[exclude]] - `contains` [EXTRACTED]
 - [[include]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/TypeScript_Compiler_Settings
+#graphify/code #graphify/EXTRACTED #community/compilerOptions_/_tsconfigjson

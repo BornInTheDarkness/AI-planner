@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0006-application-stack.md"
 type: "document"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # 0006-application-stack.md
@@ -16,4 +16,4 @@ tags:
 - [[Proposed ADR registry]] - `references` [EXTRACTED]
 - [[Six proposed architecture decisions]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/document #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

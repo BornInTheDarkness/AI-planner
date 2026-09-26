@@ -1,11 +1,11 @@
 ---
 source_file: ".github/workflows/ci.yml"
 type: "concept"
-community: "Continuous Integration Checks"
+community: "CI quality gates / ci.yml"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Continuous_Integration_Checks
+  - community/CI_quality_gates_/_ciyml
 ---
 
 # CI quality gates
@@ -16,4 +16,4 @@ tags:
 - [[Web lint, typecheck and build]] - `implements` [EXTRACTED]
 - [[ci.yml]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Continuous_Integration_Checks
+#graphify/concept #graphify/EXTRACTED #community/CI_quality_gates_/_ciyml

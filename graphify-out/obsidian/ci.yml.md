@@ -1,11 +1,11 @@
 ---
 source_file: ".github/workflows/ci.yml"
 type: "document"
-community: "Continuous Integration Checks"
+community: "CI quality gates / ci.yml"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Continuous_Integration_Checks
+  - community/CI_quality_gates_/_ciyml
 ---
 
 # ci.yml
@@ -16,4 +16,4 @@ tags:
 - [[Docker Compose configuration check]] - `references` [EXTRACTED]
 - [[Web lint, typecheck and build]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Continuous_Integration_Checks
+#graphify/document #graphify/EXTRACTED #community/CI_quality_gates_/_ciyml

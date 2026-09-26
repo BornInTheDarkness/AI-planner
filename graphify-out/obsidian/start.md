@@ -1,17 +1,17 @@
 ---
 source_file: "apps/web/package.json"
 type: "code"
-community: "Web App Configuration"
+community: "web/package.json / devDependencies"
 location: "L8"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/web/packagejson_/_devDependencies
 ---
 
 # start
 
 ## Connections
-- [[scripts]] - `contains` [EXTRACTED]
+- [[scripts_1]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/code #graphify/EXTRACTED #community/web/packagejson_/_devDependencies

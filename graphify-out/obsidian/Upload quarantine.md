@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0003-persistence.md"
 type: "concept"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # Upload quarantine
@@ -15,4 +15,4 @@ tags:
 - [[Malicious upload controls]] - `conceptually_related_to` [INFERRED]
 - [[Private versioned S3-compatible assets]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Services_and_Security
+#graphify/concept #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

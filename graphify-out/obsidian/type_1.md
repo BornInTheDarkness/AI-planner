@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Catalog Item Schema"
-location: "L80"
+community: "$defs / wall"
+location: "L56"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Catalog_Item_Schema
+  - community/defs_/_wall
 ---
 
 # type
 
 ## Connections
-- [[rotation]] - `contains` [EXTRACTED]
+- [[wall]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Catalog_Item_Schema
+#graphify/code #graphify/EXTRACTED #community/defs_/_wall

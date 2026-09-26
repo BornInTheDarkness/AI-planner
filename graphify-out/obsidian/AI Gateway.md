@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0005-ai-gateway.md"
 type: "rationale"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # AI Gateway
@@ -19,4 +19,4 @@ tags:
 - [[Generation job sequence]] - `references` [EXTRACTED]
 - [[Provider adapters]] - `implements` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/rationale #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

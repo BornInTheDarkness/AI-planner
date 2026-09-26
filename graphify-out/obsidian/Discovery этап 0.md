@@ -1,12 +1,12 @@
 ---
 source_file: "docs/discovery/README.md"
 type: "document"
-community: "Discovery Scenarios and Personas"
+community: "journey.js / Путешествие по квартире — решение интерфейса"
 location: "line 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Discovery_Scenarios_and_Personas
+  - community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса
 ---
 
 # Discovery: этап 0
@@ -19,4 +19,4 @@ tags:
 - [[Синтез рабочего пакета интервью от 17.09.2026]] - `references` [EXTRACTED]
 - [[Этап 0 выходной gate]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Discovery_Scenarios_and_Personas
+#graphify/document #graphify/EXTRACTED #community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса

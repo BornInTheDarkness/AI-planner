@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0002-spatial-contract.md"
 type: "document"
-community: "Architecture and Spatial Contracts"
+community: "journey.js / Путешествие по квартире — решение интерфейса"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса
 ---
 
 # 0002-spatial-contract.md
@@ -18,4 +18,4 @@ tags:
 - [[Trace spatial contract changes to requirements and canonical-model modules]] - `references` [EXTRACTED]
 - [[Versioned JSON Schema]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/document #graphify/EXTRACTED #community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса

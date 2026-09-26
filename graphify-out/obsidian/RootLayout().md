@@ -1,12 +1,12 @@
 ---
 source_file: "apps/web/app/layout.tsx"
 type: "code"
-community: "Web App Configuration"
-location: "L10"
+community: "design-surface.tsx / editor/page.tsx"
+location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/design-surfacetsx_/_editor/pagetsx
 ---
 
 # RootLayout()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[layout.tsx]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/code #graphify/EXTRACTED #community/design-surfacetsx_/_editor/pagetsx

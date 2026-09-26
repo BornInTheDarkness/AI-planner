@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0003-persistence.md"
 type: "rationale"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # PostgreSQL/PostGIS persistence
@@ -14,4 +14,4 @@ tags:
 - [[0003-persistence]] - `references` [EXTRACTED]
 - [[PostGIS service]] - `conceptually_related_to` [INFERRED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Services_and_Security
+#graphify/rationale #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

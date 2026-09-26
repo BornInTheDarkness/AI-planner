@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Identifier Schema Rules"
-location: "L89"
+community: "entityIds / items"
+location: "L90"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Identifier_Schema_Rules
+  - community/entityIds_/_items
 ---
 
 # type
 
 ## Connections
-- [[type_20]] - `contains` [EXTRACTED]
+- [[items_5]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Identifier_Schema_Rules
+#graphify/code #graphify/EXTRACTED #community/entityIds_/_items

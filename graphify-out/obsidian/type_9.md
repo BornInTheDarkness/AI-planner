@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Wall Geometry Schema"
-location: "L67"
+community: "properties / constraint"
+location: "L92"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Wall_Geometry_Schema
+  - community/properties_/_constraint
 ---
 
 # type
 
 ## Connections
-- [[thickness]] - `contains` [EXTRACTED]
+- [[parameters]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Wall_Geometry_Schema
+#graphify/code #graphify/EXTRACTED #community/properties_/_constraint

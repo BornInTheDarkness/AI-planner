@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Wall Object Schema"
-location: "L57"
+community: "object / additionalProperties"
+location: "L72"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Wall_Object_Schema
+  - community/object_/_additionalProperties
 ---
 
 # additionalProperties
 
 ## Connections
-- [[wall]] - `contains` [EXTRACTED]
+- [[object]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Wall_Object_Schema
+#graphify/code #graphify/EXTRACTED #community/object_/_additionalProperties

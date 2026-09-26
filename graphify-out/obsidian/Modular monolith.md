@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/0001-modular-monolith.md"
 type: "rationale"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # Modular monolith
@@ -16,4 +16,4 @@ tags:
 - [[Module data ownership]] - `conceptually_related_to` [INFERRED]
 - [[Transactional outbox]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/rationale #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

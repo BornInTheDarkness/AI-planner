@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Spatial Contract Validator"
+community: "validate_spatial_contract.py / json"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Spatial_Contract_Validator
+  - community/validate_spatial_contractpy_/_json
 ---
 
 # pathlib
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[validate_spatial_contract.py]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Spatial_Contract_Validator
+#graphify/concept #graphify/EXTRACTED #community/validate_spatial_contractpy_/_json

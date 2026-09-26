@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Constraint Schema Fields"
-location: "L86"
+community: "$defs / wall"
+location: "L58"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Constraint_Schema_Fields
+  - community/defs_/_wall
 ---
 
 # required
 
 ## Connections
-- [[constraint]] - `contains` [EXTRACTED]
+- [[wall]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Constraint_Schema_Fields
+#graphify/code #graphify/EXTRACTED #community/defs_/_wall

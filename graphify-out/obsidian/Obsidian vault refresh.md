@@ -1,12 +1,12 @@
 ---
 source_file: "docs/knowledge-graph.md"
 type: "concept"
-community: "Graph Maintenance Workflow"
+community: "Project working memory / Knowledge graph maintenance guide"
 location: "docs/knowledge-graph.md:13"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Graph_Maintenance_Workflow
+  - community/Project_working_memory_/_Knowledge_graph_maintenance_guide
 ---
 
 # Obsidian vault refresh
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Knowledge graph maintenance guide]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Graph_Maintenance_Workflow
+#graphify/concept #graphify/EXTRACTED #community/Project_working_memory_/_Knowledge_graph_maintenance_guide

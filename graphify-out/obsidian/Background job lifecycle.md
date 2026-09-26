@@ -1,11 +1,11 @@
 ---
 source_file: "docs/architecture.md"
 type: "concept"
-community: "Architecture and Spatial Contracts"
+community: "product-requirements.md / architecture.md"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/product-requirementsmd_/_architecturemd
 ---
 
 # Background job lifecycle
@@ -15,4 +15,4 @@ tags:
 - [[Idempotent background jobs]] - `conceptually_related_to` [INFERRED]
 - [[architecture]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/concept #graphify/EXTRACTED #community/product-requirementsmd_/_architecturemd

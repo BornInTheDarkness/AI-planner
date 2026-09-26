@@ -1,21 +1,17 @@
 ---
-source_file: "contracts/spatial-model/v1.schema.json"
+source_file: "apps/web/app/editor/page.tsx"
 type: "code"
-community: "Spatial JSON Schema"
-location: "L21"
+community: "design-surface.tsx / editor/page.tsx"
+location: "L5"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Spatial_JSON_Schema
+  - community/design-surfacetsx_/_editor/pagetsx
 ---
 
 # metadata
 
 ## Connections
-- [[additionalProperties_4]] - `contains` [EXTRACTED]
-- [[properties_5]] - `contains` [EXTRACTED]
-- [[properties_4]] - `contains` [EXTRACTED]
-- [[required_2]] - `contains` [EXTRACTED]
-- [[type_12]] - `contains` [EXTRACTED]
+- [[editorpage.tsx]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Spatial_JSON_Schema
+#graphify/code #graphify/EXTRACTED #community/design-surfacetsx_/_editor/pagetsx

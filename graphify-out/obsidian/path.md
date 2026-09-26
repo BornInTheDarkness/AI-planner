@@ -1,20 +1,20 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Path Item Schema"
+community: "type / properties"
 location: "L62"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path_Item_Schema
+  - community/type_/_properties
 ---
 
 # path
 
 ## Connections
-- [[items_5]] - `contains` [EXTRACTED]
-- [[minItems_1]] - `contains` [EXTRACTED]
-- [[properties_3]] - `contains` [EXTRACTED]
-- [[type_19]] - `contains` [EXTRACTED]
+- [[items_4]] - `contains` [EXTRACTED]
+- [[minItems]] - `contains` [EXTRACTED]
+- [[properties]] - `contains` [EXTRACTED]
+- [[type_2]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path_Item_Schema
+#graphify/code #graphify/EXTRACTED #community/type_/_properties

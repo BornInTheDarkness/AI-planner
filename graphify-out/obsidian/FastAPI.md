@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "API Health and Settings"
+community: "system.py / config.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/API_Health_and_Settings
+  - community/systempy_/_configpy
 ---
 
 # FastAPI
@@ -16,4 +16,4 @@ tags:
 - [[router.py]] - `imports_from` [EXTRACTED]
 - [[system.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/API_Health_and_Settings
+#graphify/code #graphify/EXTRACTED #community/systempy_/_configpy

@@ -1,23 +1,21 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Catalog Item Schema"
-location: "L74"
+community: "type / properties"
+location: "L59"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Catalog_Item_Schema
+  - community/type_/_properties
 ---
 
 # properties
 
 ## Connections
-- [[catalogItemId]] - `contains` [EXTRACTED]
 - [[id]] - `contains` [EXTRACTED]
-- [[object]] - `contains` [EXTRACTED]
-- [[position]] - `contains` [EXTRACTED]
-- [[rotation]] - `contains` [EXTRACTED]
-- [[size]] - `contains` [EXTRACTED]
-- [[type_20]] - `contains` [EXTRACTED]
+- [[path]] - `contains` [EXTRACTED]
+- [[thickness]] - `contains` [EXTRACTED]
+- [[type_3]] - `contains` [EXTRACTED]
+- [[wall]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Catalog_Item_Schema
+#graphify/code #graphify/EXTRACTED #community/type_/_properties

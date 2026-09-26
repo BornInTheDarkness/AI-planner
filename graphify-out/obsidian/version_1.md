@@ -1,17 +1,17 @@
 ---
-source_file: "package.json"
+source_file: "apps/web/package.json"
 type: "code"
-community: "Web Package Scripts"
+community: "web/package.json / devDependencies"
 location: "L3"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Package_Scripts
+  - community/web/packagejson_/_devDependencies
 ---
 
 # version
 
 ## Connections
-- [[package.json]] - `contains` [EXTRACTED]
+- [[webpackage.json]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Package_Scripts
+#graphify/code #graphify/EXTRACTED #community/web/packagejson_/_devDependencies

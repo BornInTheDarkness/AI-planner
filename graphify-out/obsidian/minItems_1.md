@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Path Item Schema"
-location: "L64"
+community: "v1.schema.json / properties"
+location: "L14"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path_Item_Schema
+  - community/v1schemajson_/_properties
 ---
 
 # minItems
 
 ## Connections
-- [[path]] - `contains` [EXTRACTED]
+- [[levels]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path_Item_Schema
+#graphify/code #graphify/EXTRACTED #community/v1schemajson_/_properties

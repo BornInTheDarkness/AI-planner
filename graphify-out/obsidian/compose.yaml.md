@@ -1,11 +1,11 @@
 ---
 source_file: "compose.yaml"
 type: "document"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # compose.yaml
@@ -17,4 +17,4 @@ tags:
 - [[PostGIS service]] - `references` [EXTRACTED]
 - [[Redis queue and cache service]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Services_and_Security
+#graphify/document #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

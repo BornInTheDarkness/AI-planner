@@ -1,17 +1,17 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Level Structure Schema"
-location: "L39"
+community: "properties / constraint"
+location: "L86"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Level_Structure_Schema
+  - community/properties_/_constraint
 ---
 
 # required
 
 ## Connections
-- [[level]] - `contains` [EXTRACTED]
+- [[constraint]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Level_Structure_Schema
+#graphify/code #graphify/EXTRACTED #community/properties_/_constraint

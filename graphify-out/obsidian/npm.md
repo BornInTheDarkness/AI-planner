@@ -1,17 +1,17 @@
 ---
 source_file: "package.json"
 type: "code"
-community: "Web Package Scripts"
+community: "package.json / scripts"
 location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Package_Scripts
+  - community/packagejson_/_scripts
 ---
 
 # npm
 
 ## Connections
-- [[engines_1]] - `contains` [EXTRACTED]
+- [[engines]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Package_Scripts
+#graphify/code #graphify/EXTRACTED #community/packagejson_/_scripts

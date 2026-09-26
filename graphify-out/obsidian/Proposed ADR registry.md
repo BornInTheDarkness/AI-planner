@@ -1,11 +1,11 @@
 ---
 source_file: "docs/adr/README.md"
 type: "concept"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # Proposed ADR registry
@@ -19,4 +19,4 @@ tags:
 - [[0006-application-stack]] - `references` [EXTRACTED]
 - [[adrREADME]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/concept #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

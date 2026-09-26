@@ -1,11 +1,11 @@
 ---
 source_file: ".github/dependabot.yml"
 type: "document"
-community: "Dependency Updates"
+community: "Weekly dependency updates / dependabot.yml"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Dependency_Updates
+  - community/Weekly_dependency_updates_/_dependabotyml
 ---
 
 # dependabot.yml
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Weekly dependency updates]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Dependency_Updates
+#graphify/document #graphify/EXTRACTED #community/Weekly_dependency_updates_/_dependabotyml

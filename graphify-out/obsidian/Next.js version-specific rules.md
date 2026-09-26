@@ -1,11 +1,11 @@
 ---
 source_file: "apps/web/AGENTS.md"
 type: "rationale"
-community: "Web Agent Guidance"
+community: "AGENTS.md / Reference to AGENTS.md"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Web_Agent_Guidance
+  - community/AGENTSmd_/_Reference_to_AGENTSmd
 ---
 
 # Next.js version-specific rules
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[AGENTS]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Web_Agent_Guidance
+#graphify/rationale #graphify/EXTRACTED #community/AGENTSmd_/_Reference_to_AGENTSmd

@@ -1,11 +1,11 @@
 ---
 source_file: "apps/api/app/modules/README.md"
 type: "rationale"
-community: "Persistence and AI Jobs"
+community: "AI Gateway / Proposed ADR registry"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Persistence_and_AI_Jobs
+  - community/AI_Gateway_/_Proposed_ADR_registry
 ---
 
 # Module data ownership
@@ -14,4 +14,4 @@ tags:
 - [[Modular monolith]] - `conceptually_related_to` [INFERRED]
 - [[modulesREADME]] - `references` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Persistence_and_AI_Jobs
+#graphify/rationale #graphify/EXTRACTED #community/AI_Gateway_/_Proposed_ADR_registry

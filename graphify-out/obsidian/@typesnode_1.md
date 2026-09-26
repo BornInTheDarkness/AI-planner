@@ -1,12 +1,12 @@
 ---
 source_file: "apps/web/package.json"
 type: "concept"
-community: "Web App Configuration"
+community: "web/package.json / devDependencies"
 location: "L18"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Web_App_Configuration
+  - community/web/packagejson_/_devDependencies
 ---
 
 # @types/node
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[webpackage.json]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Web_App_Configuration
+#graphify/concept #graphify/EXTRACTED #community/web/packagejson_/_devDependencies

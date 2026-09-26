@@ -1,11 +1,11 @@
 ---
 source_file: "compose.yaml"
 type: "concept"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # Redis queue and cache service
@@ -15,4 +15,4 @@ tags:
 - [[Idempotent background jobs]] - `conceptually_related_to` [INFERRED]
 - [[compose.yaml]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Services_and_Security
+#graphify/concept #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

@@ -1,12 +1,12 @@
 ---
 source_file: "contracts/spatial-model/v1.schema.json"
 type: "code"
-community: "Constraint Schema Fields"
+community: "properties / constraint"
 location: "L91"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Constraint_Schema_Fields
+  - community/properties_/_constraint
 ---
 
 # enum
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[severity]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Constraint_Schema_Fields
+#graphify/code #graphify/EXTRACTED #community/properties_/_constraint

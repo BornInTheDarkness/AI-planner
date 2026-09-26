@@ -1,11 +1,11 @@
 ---
 source_file: "docs/product-requirements.md"
 type: "concept"
-community: "Services and Security"
+community: "threat-model.md / STRIDE threat model"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Services_and_Security
+  - community/threat-modelmd_/_STRIDE_threat_model
 ---
 
 # Data minimization and deletion
@@ -14,4 +14,4 @@ tags:
 - [[No plans or prompts in telemetry]] - `conceptually_related_to` [INFERRED]
 - [[product-requirements]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Services_and_Security
+#graphify/concept #graphify/EXTRACTED #community/threat-modelmd_/_STRIDE_threat_model

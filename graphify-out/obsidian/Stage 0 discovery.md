@@ -1,17 +1,17 @@
 ---
 source_file: "docs/roadmap.md"
 type: "concept"
-community: "Architecture and Spatial Contracts"
+community: "journey.js / Путешествие по квартире — решение интерфейса"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Architecture_and_Spatial_Contracts
+  - community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса
 ---
 
 # Stage 0 discovery
 
 ## Connections
-- [[Stage 0 baseline prepared; interviews, usability sessions and owner review remain]] - `conceptually_related_to` [INFERRED]
+- [[Stage 0 baseline prepared; usability sessions and owner review remain]] - `conceptually_related_to` [INFERRED]
 - [[roadmap]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Architecture_and_Spatial_Contracts
+#graphify/concept #graphify/EXTRACTED #community/journeyjs_/_Путешествие_по_квартире__решение_интерфейса
